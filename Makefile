@@ -1,0 +1,25 @@
+parts = $(basename  $(wildcard *.rst))
+
+pdfs = $(addsuffix .pdf,$(parts))
+print = $(addsuffix -print.pdf,$(parts))
+
+html = $(addsuffix .html,$(parts))
+css = init.css
+
+all: $(html)
+handout: $(print)
+
+%.pdf: %.html
+	./s52pdf.sh $<
+
+%.html: %.rst $(css)
+	LC_ALL=sv_SE.UTF-8 rst2s5 --link-stylesheet --stylesheet=$(css) --smart-quotes=yes --current-slide $< $@
+	perl -pi -e 's%<div class="layout">%<div class="layout">\n<img id="slant" src="img/slant.png">%' $@
+	cp $@ index.html
+
+%-print.pdf: %.pdf
+	./twoup.sh $?
+
+publish: $(html) $(css) $(pdfs) img ui index.html
+	@sshadd
+	rsync -ztvua --delete --progress $? lekstugan:/var/www/jonas.init.se/htdocs/slides/
