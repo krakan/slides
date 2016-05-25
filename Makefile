@@ -11,7 +11,7 @@ handout: $(print)
 %.pdf: %.html
 	./s52pdf.sh $<
 
-%.html: %.rst $(css)
+%.html: %.rst
 	LC_ALL=sv_SE.UTF-8 rst2s5 --link-stylesheet --stylesheet=init.css,$(basename $@).css --smart-quotes=yes --current-slide $< $@
 	perl -pi -e 's%<div class="layout">%<div class="layout">\n<img id="slant" src="img/slant.png">%' $@
 	cp $@ index.html
