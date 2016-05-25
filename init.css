@@ -3,11 +3,6 @@ body
   font-size: 2em !important;
   font-family: Helvetica, sans-serif !important;
   background-color: white !important;
-  background-image: url(img/DevOpsGray.png) !important;
-  background-attachment: fixed !important;
-  background-position: 90% 82% !important;
-  background-size: 584px 413px !important;
-  background-repeat: no-repeat !important;
 }
 
 img#slant
