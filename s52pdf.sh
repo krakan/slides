@@ -27,7 +27,7 @@ echo -ne "  \r"
 
 xsetroot -solid green
 xdotool key F11
-xdotool mousemove 1 1
+xdotool mousemove 500 500
 
 rm -f capture??.png
 while test $i -lt $n
