@@ -2,7 +2,7 @@ body
 {
   font-size: 2em !important;
   font-family: Helvetica, sans-serif !important;
-  background-color: white !important;
+  background: white url(none) !important;
 }
 
 img#slant
