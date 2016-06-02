@@ -36,7 +36,7 @@
    :class: grey
 
 Agenda
-======           
+======
 
 * Historik
 * Typer
@@ -143,13 +143,13 @@ Unicode i data
 
 * strängar konverteras till "Normalization Form Grapheme" ::
 
-    > say "a\c[COMBINING RING ABOVE]" === "å"
+    > say "a\c[COMBINING RING ABOVE]" eq "å"
     True
 
     > say "\r\n".chars
     1
 
-    > say "\r\n" === "\n"
+    > say "\r\n" eq "\n"
     False
 
 * vill man hantera bytes kan man använda typen Buf
@@ -253,10 +253,10 @@ Objektorienterad programmering
 Funktionell programmering
 =========================
 
-* Fuktioner returnerar alltid samma resultat med samma parametrar
-* Funktioner har inga sideffekter
+* *Rena funktioner* returnerar alltid samma resultat med samma parametrar
+* *Rena funktioner* har inga sideffekter
 * Perl6 har allt som Haskel har
-* utom macron
+* utom makron
 
 Metaprogrammering
 =================
