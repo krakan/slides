@@ -19,6 +19,6 @@ handout: $(print)
 %-print.pdf: %.pdf
 	./twoup.sh $?
 
-publish: $(html) $(css) $(pdfs) img ui index.html
+publish: $(html) $(pdfs) img ui init.css styles index.html
 	@sshadd
 	rsync -ztvua --delete --progress $? lekstugan:/var/www/jonas.init.se/htdocs/slides/
