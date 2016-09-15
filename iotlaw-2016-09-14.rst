@@ -27,7 +27,7 @@
       PageBreak oneColumn
 
 .. footer::
-  jonas.linde@init.se
+  jonas@init.se
 
 .. role:: single
    :class: single
@@ -89,7 +89,7 @@ Datasäkerhet
 ============================================
 
 * 90% samlar in minst en personuppgift
-* 70% data utan krypering
+* 70% överför data utan krypering
 
 .. class:: illustration
 .. image:: img/hp.jpg
@@ -110,8 +110,8 @@ Kompatibilitet
 * En stor mängd standarder är under framtagning
 * En större mängd enheter är under framtagning
 * Lönsamheten i instängt data är stor
-* När mängden data växer, ökar potentialen för delat data
-* En modell är att data köps och säljs
+* När mängden data växer, ökar potentialen för *delat* data
+* En modell är att data köps och säljs …
 
 .. class:: illustration
 .. image:: img/lingon.png
@@ -120,7 +120,7 @@ Kompatibilitet
 Self-sovereign Identity
 =======================
 
-* En annan modell är att enskilda tar kontrollen över "sitt" data
+* … en annan modell är att enskilda tar kontrollen över **sitt** data
 * Kanske med hjälp av *block chains*
 
 .. class:: illustration
@@ -148,6 +148,17 @@ Kan vi lita på IoT?
 * Icke-öppna standarder hämmar utvecklingen!
 * Proprietärt data är värdefullt!
 * Människor är lata …
+
+.. class:: illustration
+.. image:: img/street_sign.jpg
+     :alt: [This way or that?]
+
+Öppet eller stängt
+==================
+
+* Öppna standarder tar tid.
+* Proprietärt data är riskabelt.
+* Människor är uppfinningsrika …
 
 .. class:: illustration
 .. image:: img/street_sign.jpg
