@@ -34,7 +34,7 @@ while test $i -lt $n
 do
     echo -ne "$i\r"
     perl -MTime::HiRes -e 'Time::HiRes::usleep(0.25*1e6)'
-    xwd -silent -root | convert - $(printf "capture%02d.png" $i)
+    scrot  $(printf "capture%02d.png" $i)
     xdotool click 1
     ((i++))
 done
