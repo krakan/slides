@@ -139,12 +139,12 @@ a:link, a:visited
   color: #02488c !important;
 }
 
-img.align-bottom
+image.align-bottom, obejct.align-bottom
 {
   float: right !important
 }
 
-img.illustration
+image.illustration. object.illustration
 {
   position: inherit;
   bottom: 100px;
@@ -156,6 +156,13 @@ img.illustration
   border-style: none;
   background: transparent;
   z-index: -1;
+}
+
+image.right, object.right
+{
+  position: fixed;
+  top: 250px;
+  right: 300px;
 }
 
 img.single
