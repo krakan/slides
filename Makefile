@@ -20,5 +20,11 @@ handout: $(print)
 	./twoup.sh $?
 
 publish: $(html) $(pdfs) img ui init.css styles index.html
-	@sshadd
-	rsync -ztvua --delete --progress $? lekstugan:/var/www/jonas.init.se/htdocs/slides/
+	for file in $?; do \
+	if test -d $$file; then \
+	  aws s3 cp --recursive $$file s3://jonaseel.se/slides/$$file; \
+	else \
+	  aws s3 cp $$file s3://jonaseel.se/slides/$$file; \
+	fi; \
+	done
+	touch publish
