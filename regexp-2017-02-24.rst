@@ -1,0 +1,202 @@
+.. -*- mode: rst -*-
+.. This document is formatted for rst2s5
+.. http://docutils.sourceforge.net/
+
+===================
+ Reguljära Uttryck
+===================
+
+|
+
+|
+
+|
+
+.. image:: img/init180x170.gif
+   :alt: Init AB
+   :target: http://www.init.se/
+
+|
+
+.. class:: center
+
+      Jonas Linde <jonas@init.se>
+
+.. raw:: pdf
+
+      PageBreak oneColumn
+
+.. footer::
+  jonas@init.se
+
+.. role:: single
+   :class: single
+
+.. role:: grey
+   :class: grey
+
+Historik
+========
+
+* Stephen Cole Kleene (matematiker), 1956, *regular language*
+* etymologi: "reglerade uttryck"
+* började användas på allvar i Unix på 70-talet
+* reguljära uttryck är "enkla" för en dator att tolka
+* utökade för att bli praktiskt användbara
+* standardiserade i POSIX.2 1992
+
+Varianter
+=========
+
+* POSIX basic RE (aka. obsolete RE)
+* POSIX extended RE (aka. modern RE)
+* Perl compatible RE (pcre)
+* andra programmeringsspråk
+
+Verktyg
+=======
+
+* grep, egrep
+* vi, emacs
+* ed, awk, sed
+* ansible, chef, puppet
+* perl, python, bash
+
+Uppbyggnad
+==========
+
+* deluttryck
+* metatecken
+* man 7 regex
+
+Uppbyggnad
+==========
+
+* RE = grenar separerade av "``|``"
+* gren = delar
+* del = atom med ev. antal
+* antal = "``*``", "``?``", "``+``", ``{i}``, ``{i,}`` eller ``{i,j}``
+* atomer - t.ex. bokstäver - se nedan
+
+Matchning
+=========
+
+* ett RE *matchar* omm **någon** av grenarna matchar
+* en gren matchar omm **alla** delar matchar (i rätt ordning)
+
+  Exempel: uttrycket "``abc``" består av en gren som består av delarna
+  "``a``", "``b``" och "``c``" och matchar alla strängar som
+  innehåller ett "``a``" omedelbart följt av ett "``b``" omedelbart
+  följt av ett "``c``".
+
+Atom
+====
+
+* enstaka tecken utom *metatecken*
+
+  ``^ $ . [ * \ | ( ) ? + {``
+
+* en "``.``"
+* en "``\``" följt av valfritt tecken
+* en *mängd* inom ``[]``
+* ett specialuttryck inom ``[]``
+* en *referens* - d.v.s. en "``\``" följt av en *siffra*
+* ett **RE** inom ``()``
+
+Metatecken (BRE)
+================
+
+      ====== ======================================
+      ``^``  början av rad eller sträng
+      ``$``  slut av rad eller sträng
+      ``.``  godtyckligt tecken
+      ``[]`` mängder och specialuttryck - se nedan
+      ``*``  noll eller fler av föregående atom
+      ``\``  *avmetafierare*?
+      ====== ======================================
+
+Metatecken (ERE)
+================
+
+      ========= ===============================================
+      ``|``     grenavgränsare                                
+      ``()``    gruppering                                    
+      ``?``     noll eller en av föregående atom              
+      ``+``     en eller fler av föregående atom              
+      ``{i}``   exakt *i* st. av föregående atom              
+      ``{i,}``  minst *i* st. av föregående atom              
+      ``{i,j}`` minst *i* men högst *j* st. av föregående atom  
+      ========= ===============================================
+
+Skillnader mot BRE
+==================
+
+* ``| + ? ( ) { }`` är vanliga tecken
+* antal skrivs med "``\{``" och "``\}``"
+* grupperingar skrivs med "``\(``" och "``\)``"
+
+
+Tillägg i GNU
+=============
+
+      ================ ===========================================
+      ``\n,\t,\r,``    newline, tab, carriage-return etc.
+      ``{,j}``         högst *j* st. av föregående atom
+      ``\< \>``        början resp. slut av ord
+      ``\b``           ordgräns
+      ``\B``           tomma strägen som inte är ordgräns*?*
+      ``\w``           samma som ``[_[:alnum:]]``
+      ``\W``           samma som ``[^_[:alnum:]]``
+      ================ ===========================================
+
+Mängder
+=======
+
+* står inom hakparenteser - ``[]``
+* uppräkning av tecken - t.ex. ``[acdef]``
+* interval: två tecken med "``-``" emellan - t.ex. ``[ac-f]``
+* negation: första tecknet är ``^`` - t.ex. ``[^b]``
+* "``]``" som första tecken (eller andra om första är "``^``")
+* "``-``" som första eller sista tecken
+* metatecken: "``^``", "``-``" och vissa kombinationer med "``[``"
+
+Referenser
+==========
+
+* refererar tidigare angivna parenteser ``()``
+* numreras via vänsterparentesen ``(``
+* två användningsområden
+
+ + bakåtreferens
+
+   ``a([bc])\1d`` (matchar "``abbd``" och "``accd``" men inte "``abcd``")
+
+ + ersättning
+
+   ``s/a([bc])d/A\1D/`` (ersätter "``abd``" med "``AbD``" och "``acd``" med "``AcD``")
+   
+Specialuttryck
+==============
+
+* teckenklass ``[[: :]]`` ::
+
+   alnum   digit   punct   alpha   graph   space
+   blank   lower   upper   cntrl   print   xdigit
+
+* ekvivalensklass ``[[= =]]`` ::
+
+   export LC_COLLATE=en_US.UTF-8
+   echo Citroner á 2:- | grep "[ [=a=] ]"
+   echo Citroner á 2:- | grep [^[=c=]]
+
+* kollationeringselement ``[[. .]]`` ::
+
+   echo Ålborg | LC_ALL=da_DK.UTF-8 egrep '[Ä-[.Aa.]]'
+
+Perl compatible RE
+==================
+
+* non-greedy matches: ``.*?``
+* non-backtracking
+
+TBD ...
