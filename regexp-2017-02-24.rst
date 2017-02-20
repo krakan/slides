@@ -89,6 +89,19 @@ Matchning
   innehåller ett "``a``" omedelbart följt av ett "``b``" omedelbart
   följt av ett "``c``".
 
+Back tracking
+=============
+
+* algoritmen för att matcha ett RE bygger på trial-and-error
+
+  Exempel::
+
+    echo '"Hej" sa hon, "vad gör du?"' | grep -o '".*" '
+
+* ``"`` matchar första tecknet; ``.*`` matchar **resten** av raden; ``"`` misslyckas
+* algoritmen låter ``*`` backa ett steg; då matchar sista ``"`` också
+* men inte mellanslaget; algoritmen backar tills alla delar matchar
+
 Atom
 ====
 
@@ -147,6 +160,7 @@ Tillägg i GNU
       ``\B``           tomma strägen som inte är ordgräns*?*
       ``\w``           samma som ``[_[:alnum:]]``
       ``\W``           samma som ``[^_[:alnum:]]``
+      ``\? \+ \|``     istället för ``? + |`` i BRE
       ================ ===========================================
 
 Mängder
@@ -198,5 +212,9 @@ Perl compatible RE
 
 * non-greedy matches: ``.*?``
 * non-backtracking
+* non-capturing
+* etc. …
 
-TBD ...
+Övningar
+========
+
