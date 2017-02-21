@@ -199,13 +199,12 @@ Specialuttryck
 
 * ekvivalensklass ``[[= =]]`` ::
 
-   export LC_COLLATE=en_US.UTF-8
-   echo Citroner á 2:- | grep "[ [=a=] ]"
+   echo Citroner á 2:- | LC_COLLATE=en_US.UTF-8 grep "[ [=a=] ]"
    echo Citroner á 2:- | grep [^[=c=]]
 
 * kollationeringselement ``[[. .]]`` ::
 
-   echo Ålborg | LC_ALL=da_DK.UTF-8 egrep '[Ä-[.Aa.]]'
+   echo Ålborg | LC_COLLATE=da_DK.UTF-8 egrep '[Ä-[.Aa.]]'
 
 Perl compatible RE
 ==================
