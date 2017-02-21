@@ -53,6 +53,10 @@ Varianter
 * Perl compatible RE (pcre)
 * andra programmeringsspråk
 
+.. class:: illustration
+.. image:: img/ieee-posix.jpg
+     :alt: [IEEE-POSIX]
+
 Verktyg
 =======
 
@@ -61,6 +65,10 @@ Verktyg
 * ed, awk, sed, tcl
 * ansible, chef, puppet
 * perl, python, bash
+
+.. class:: illustration
+.. image:: img/emacs-vim.png
+     :alt: [editor war]
 
 Uppbyggnad
 ==========
@@ -116,6 +124,11 @@ Atom
 * en *referens* - d.v.s. en "``\``" följt av en *siffra*
 * ett **RE** inom ``()``
 
+.. class:: right
+.. image:: img/atom.png
+   :alt: [lithium]
+   :width: 20%
+
 Metatecken (BRE)
 ================
 
@@ -148,20 +161,25 @@ Skillnader mot BRE
 * antal skrivs med "``\{``" och "``\}``"
 * grupperingar skrivs med "``\(``" och "``\)``"
 
+.. class:: illustration
+.. image:: img/lingon.png
+     :alt: [lingon]
 
 Tillägg i GNU
 =============
 
-      ================ ===========================================
+      ================ ==================================================
       ``\n,\t,\r,``    newline, tab, carriage-return etc.
       ``{,j}``         högst *j* st. av föregående atom
       ``\< \>``        början resp. slut av ord
-      ``\b``           ordgräns
-      ``\B``           tomma strägen som inte är ordgräns*?*
-      ``\w``           samma som ``[_[:alnum:]]``
-      ``\W``           samma som ``[^_[:alnum:]]``
+      ``\b \B``        tom sträng som är *ordgräns* resp. inte *ordgräns*
+      ``\w \W``        samma som ``[_[:alnum:]]`` resp. ``[^_[:alnum:]]``
       ``\? \+ \|``     istället för ``? + |`` i BRE
-      ================ ===========================================
+      ================ ==================================================
+
+.. class:: illustration
+.. image:: img/3d-gnu-head.png
+     :alt: [GNU's not Un*x]
 
 Mängder
 =======
@@ -217,6 +235,11 @@ Perl compatible RE
 * etc. ::
 
     man perlre
+
+.. class:: right
+.. image:: img/camel.gif
+   :alt: [camel]
+   :width: 20%
 
 Perl6
 =====
