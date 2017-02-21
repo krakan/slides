@@ -58,7 +58,7 @@ Verktyg
 
 * grep, egrep
 * vi, emacs
-* ed, awk, sed
+* ed, awk, sed, tcl
 * ansible, chef, puppet
 * perl, python, bash
 
@@ -89,18 +89,18 @@ Matchning
   innehåller ett "``a``" omedelbart följt av ett "``b``" omedelbart
   följt av ett "``c``".
 
-Back tracking
-=============
+Backtracking
+============
 
 * algoritmen för att matcha ett RE bygger på trial-and-error
 
   Exempel::
 
-    echo '"Hej" sa hon, "vad gör du?"' | grep -o '".*" '
+    echo '"Hej" sa hen, "vad gör du?"' | grep -o '".*" '
 
 * ``"`` matchar första tecknet; ``.*`` matchar **resten** av raden; ``"`` misslyckas
 * algoritmen låter ``*`` backa ett steg; då matchar sista ``"`` också
-* men inte mellanslaget; algoritmen backar tills alla delar matchar
+* men inte mellanslaget; algoritmen backar tills alla fyra delarna matchar
 
 Atom
 ====
@@ -210,11 +210,43 @@ Specialuttryck
 Perl compatible RE
 ==================
 
-* non-greedy matches: ``.*?``
-* non-backtracking
-* non-capturing
-* etc. …
+* non-greedy matches: ``".*?"``
+* non-backtracking: ``".*+"``
+* non-capturing: ``(?:...)``
+* named captures: ``(?<name>...)``
+* extended escape sequences
+* etc. ::
+
+    man perlre
+
+Perl6
+=====
+
+* Nästan helt annorlunda uttryck!
+* Men ``perl6-debug`` kan användas för att debugga vanliga RE
+
+* https://perl6advent.wordpress.com/2012/12/05/a-perl-6-debugger/
+
+.. class:: illustration
+.. image:: img/camelia-logo.png
+     :alt: [Camelia]
 
 Övningar
 ========
 
+* https://regexone.com/
+* https://regexone.com/lesson/end
+* https://alf.nu/RegexGolf
+* https://regexcrossword.com/
+
+.. class:: illustration
+.. image:: img/dominoes2.jpg
+     :alt: [more dominoes]
+
+
+Katter
+======
+
+.. image:: img/cat_hugging_teddy_hugging_toy.jpg
+     :alt: [kitten]
+     :width: 50%
