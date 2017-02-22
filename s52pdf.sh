@@ -16,7 +16,7 @@ Xvfb $DISPLAY -screen 0 1920x1080x24+32 &
 fvwm 2>/dev/null &
 chromium --kiosk $name.html 2>/dev/null &
 
-i=-5
+i=-6
 while test $i -lt 0
 do
     echo -ne "$i\r"
@@ -28,6 +28,7 @@ echo -ne "  \r"
 xsetroot -solid green
 xdotool key F11
 xdotool mousemove 500 500
+wmctrl -ar chromium 
 
 rm -f capture??.png
 while test $i -lt $n
