@@ -50,7 +50,7 @@ Varianter
 
 * POSIX basic RE (aka. obsolete RE)
 * POSIX extended RE (aka. modern RE)
-* GNU's tillägg
+* GNU-tillägg
 * Perl compatible RE (pcre)
 * andra programmeringsspråk
 
