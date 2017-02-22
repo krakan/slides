@@ -70,6 +70,10 @@ img#slant
   height: .3em;
 }
 
+.slide tt, .slide pre {
+  color: #755 !important;
+}
+
 div#header, div#footer
 {
   color: #eef !important;
