@@ -104,11 +104,11 @@ Backtracking
 
   Exempel::
 
-    echo '"Hej" sa hen, "vad gör du?"' | grep -o '".*" '
+    echo '{"key": "value"}' | grep -o '".*":'
 
 * ``"`` matchar första tecknet; ``.*`` matchar **resten** av raden; ``"`` misslyckas
 * algoritmen låter ``*`` backa ett steg; då matchar sista ``"`` också
-* men inte mellanslaget; algoritmen backar tills alla fyra delarna matchar
+* men inte ``:``; algoritmen backar tills alla fyra delarna matchar
 
 Atom
 ====
