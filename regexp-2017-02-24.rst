@@ -173,7 +173,7 @@ Tillägg i GNU
       ``\n,\t,\r,``    newline, tab, carriage-return etc.
       ``{,j}``         högst *j* st. av föregående atom
       ``\< \>``        början resp. slut av ord
-      ``\b \B``        tom sträng som är *ordgräns* resp. inte *ordgräns*
+      ``\b \B``        tom sträng som är *ordgräns* resp. inuti ett ord
       ``\w \W``        samma som ``[_[:alnum:]]`` resp. ``[^_[:alnum:]]``
       ``\? \+ \|``     istället för ``? + |`` i BRE
       ================ ==================================================
