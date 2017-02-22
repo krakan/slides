@@ -63,7 +63,7 @@ Verktyg
 
 * grep, egrep
 * vi, emacs
-* ed, awk, sed, tcl
+* ed, sed, awk, tcl
 * ansible, chef, puppet
 * perl, python, bash
 
@@ -130,8 +130,8 @@ Atom
    :alt: [lithium]
    :width: 20%
 
-Metatecken (BRE)
-================
+Metatecken i BRE & ERE
+======================
 
       ====== ======================================
       ``^``  början av rad eller sträng
@@ -139,11 +139,11 @@ Metatecken (BRE)
       ``.``  godtyckligt tecken
       ``[]`` mängder och specialuttryck - se nedan
       ``*``  noll eller fler av föregående atom
-      ``\``  *avmetafierare*?
+      ``\``  *metaomvandlare*?
       ====== ======================================
 
-Metatecken (ERE)
-================
+Metatecken endast i ERE
+=======================
 
       ========= ===============================================
       ``|``     grenavgränsare                                
@@ -155,8 +155,8 @@ Metatecken (ERE)
       ``{i,j}`` minst *i* men högst *j* st. av föregående atom  
       ========= ===============================================
 
-Skillnader mot BRE
-==================
+Skillnader i BRE
+================
 
 * ``| + ? ( ) { }`` är vanliga tecken
 * antal skrivs med "``\{``" och "``\}``"
@@ -173,8 +173,8 @@ Tillägg i GNU
       ``\n,\t,\r,``    newline, tab, carriage-return etc.
       ``{,j}``         högst *j* st. av föregående atom
       ``\< \>``        början resp. slut av ord
-      ``\b \B``        tom sträng som är *ordgräns* resp. inuti ett ord
-      ``\w \W``        samma som ``[_[:alnum:]]`` resp. ``[^_[:alnum:]]``
+      ``\b \B``        tom sträng vid *ordgräns* resp. inuti ett ord
+      ``\w \W``        samma som ``[_0-9a-zA-Z]`` resp. ``[^_0-9a-zA-Z]``
       ``\? \+ \|``     istället för ``? + |`` i BRE
       ================ ==================================================
 
