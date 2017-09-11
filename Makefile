@@ -19,7 +19,7 @@ handout: $(print)
 %-print.pdf: %.pdf
 	./twoup.sh $?
 
-publish: $(html) $(pdfs) img ui init.css styles index.html
+publish: $(html) index.html init.css $(pdfs) ui styles img
 	for file in $?; do \
 	if test -d $$file; then \
 	  aws s3 cp --recursive $$file s3://jonaseel.se/slides/$$file; \
