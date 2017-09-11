@@ -19,12 +19,10 @@ handout: $(print)
 %-print.pdf: %.pdf
 	./twoup.sh $?
 
-publish: $(html) index.html init.css $(pdfs) ui styles img
-	for file in $?; do \
-	if test -d $$file; then \
-	  aws s3 cp --recursive $$file s3://jonaseel.se/slides/$$file; \
-	else \
-	  aws s3 cp $$file s3://jonaseel.se/slides/$$file; \
-	fi; \
-	done
-	touch publish
+publish:
+	find $(html) index.html init.css $(pdfs) ui styles img \
+	 -type f -newer .publish -size +0 | \
+	 while read file; do \
+	    aws s3 cp "$$file" s3://jonaseel.se/slides/"$$file"; \
+	 done
+	touch .publish
