@@ -41,7 +41,7 @@ Historik
 * 2009 Gent
 * 2010 USA, Australien, Tyskland, Brasilien
 * 2011 Göteborg + 5 st
-* 2013 18 st
+* ...
 * 2016 Stockholm + 41 st
 * 2017 51 st
 
@@ -57,18 +57,22 @@ Presentationer - dag 1
 
   * Humane Teams
 
+    + Emma Jane Hogbin Westby, OCHA + Dan Young, EngineerBetter
     + colocated vs. dispersed
 
   * Ops to Dev
 
+    + Igor Galić
     + "not a single piece of code was written with automation in mind"
 
   * Not Wrong Long
 
+    + Sally Goble, the Guardian
     + testa i prod
 
   * Metaphors We Compute by
 
+    + Alvaro Videla, RabbitMQ
     + metaforer förenklar förståelse
 
 Presentationer - dag 2
@@ -76,19 +80,23 @@ Presentationer - dag 2
 
   * Healthy Minds
 
+    + Erik Sasha Romijn, Django
     + 1 of 4 experience mental illness in their lifetime
 
   * The Oath of Non-Allegiance
 
+    + Louise Paling
     + lista med bra saker
     + Change Management t.ex.
 
   * ChatOps
 
+    + Aubrey Stearn, PizzaHut
     + real-time execution of tooling with simultaneous communiaction
 
   * Boring is Powerful
 
+    + Jon Topper, The Scale Factory
     + Hacker news driven development
 
 Ignites
@@ -146,6 +154,14 @@ Hallway track
 
 * RAI
 * filefi.sh
+
+Huvuddrag
+=========
+
+* Testa i prod
+* Humane teams
+* Inga silos
+* DevOp **S**
 
 One size doesn't fit all
 ========================
