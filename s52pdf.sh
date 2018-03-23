@@ -12,8 +12,8 @@ n=$(grep -c '"slide"' $name.html)
 
 export GOOGLE_API_KEY=0 GOOGLE_DEFAULT_CLIENT_ID=0 GOOGLE_DEFAULT_CLIENT_SECRET=0
 export DISPLAY=:17
-Xvfb $DISPLAY -screen 0 1920x1080x24+32 &
-fvwm 2>/dev/null &
+Xvfb $DISPLAY -screen 0 1920x1080x24+32 >/dev/null 2>&1 &
+metacity 2>/dev/null &
 chromium --kiosk $name.html 2>/dev/null &
 
 i=-6
@@ -26,9 +26,9 @@ done
 echo -ne "  \r"
 
 xsetroot -solid green
+wmctrl -ar chromium
 xdotool key F11
 xdotool mousemove 500 500
-wmctrl -ar chromium 
 
 rm -f capture??.png
 while test $i -lt $n

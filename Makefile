@@ -19,7 +19,7 @@ handout: $(print)
 %-print.pdf: %.pdf
 	./twoup.sh $?
 
-publish:
+publish: $(html)
 	find $(html) index.html init.css $(pdfs) ui styles img \
 	 -type f -newer .publish -size +0 | \
 	 while read file; do \
