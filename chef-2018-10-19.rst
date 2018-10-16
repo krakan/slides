@@ -158,7 +158,7 @@ Workstation
 * Kan använda `chef-run` för att köra ad-hoc på noder
   + `chef-workstation` är ett paket att ladda ner från https://chef.io/downloads
 * `chefdk` är ett liknande paket byggt av communityn
-* Med `knife` kan man en hämta kokböcker från communityn
+* Med `knife` kan man en hämta community-skrivna kokböcker
 
   .. code::
 
@@ -169,7 +169,7 @@ Node
 ====
 
 * Kör `chef-client` regelbundet
-* Hämtar konfiuration från servern
+* Hämtar konfiguration från servern
 * Exekverar kokböcker
 
   + test and repair
@@ -315,10 +315,10 @@ Attributes
 * Kommer från
 
   + `ohai` - verktyg som samlar fakta om noden
-  + `attributes/`
-  + `recipes/`
-  + `environments/`
-  + `roles/`
+  + `attributes/` - i en kokbok
+  + `recipes/` - i en kokbok
+  + `environments/` - från `chef-repo`
+  + `roles/` - från `chef-repo`
 
 * Exempel:
 
