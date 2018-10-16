@@ -17,7 +17,7 @@ img#slant
 
 #slide0 h1
 {
-  color: #cc3300 !important;
+  color: #772432 !important;
   background: transparent !important;
 }
 
@@ -38,7 +38,7 @@ img#slant
   padding: 0.3em 0 0 0 !important;
   white-space: nowrap !important;
   text-transform: none !important;
-  color: #cc3300 !important;
+  color: #772432 !important;
   background: transparent !important;
 }
 
@@ -83,7 +83,7 @@ div#header, div#footer
 
 div#header
 {
-
+  
   position: fixed;
   bottom: 0px !important;
   right: 0px !important;
@@ -96,12 +96,12 @@ div#header
 div#footer
 {
   background-color: white !important;
-  background-image: url(img/initab.png) !important;
+  background-image: url(img/b3.PNG) !important;
   background-position: 10px 50% !important;
-  background-size: 56px 53px !important;
+  background-size: 59px 47px !important;
   background-repeat: no-repeat !important;
   padding-left: 65px !important;
-  color: #02488c !important;
+  color: #3a6372 !important;
 
   position: fixed;
   bottom: 0px !important;
@@ -113,13 +113,13 @@ div#footer
 
 div#footer a:link
 {
-  color: #02488c !important;
+  color: #3a6372 !important;
 }
 
 a:link, a:visited
 {
   text-decoration: none;
-  color: #02488c !important;
+  color: #3a6372 !important;
 }
 
 .incremental, .incremental *, .incremental *:after
@@ -140,7 +140,7 @@ a:link, a:visited
 #controls #navLinks a
 {
   background: #fff !important;
-  color: #02488c !important;
+  color: #3a6372 !important;
 }
 
 img.align-bottom, obejct.align-bottom
@@ -194,7 +194,7 @@ img.single
   bottom: 30px;
   text-align: center;
   font-size: 0.5em;
-  color: #02488c !important;
+  color: #3a6372 !important;
 }
 
 /* the TODO-list table */
