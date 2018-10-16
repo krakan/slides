@@ -20,7 +20,7 @@ handout: $(print)
 	./twoup.sh $?
 
 publish: $(html) $(pdfs)
-	find $(html) index.html init.css $(pdfs) ui styles img \
+	find $(html) index.html b3.css init.css $(pdfs) ui styles img \
 	 -type f -newer .publish -size +0 | \
 	 while read file; do \
 	    aws s3 cp "$$file" s3://jonaseel.se/slides/"$$file"; \

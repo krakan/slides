@@ -156,7 +156,9 @@ Workstation
 * Hanterar servern
 * Använder `knife` för att kommunicera med servern och noderna
 * Kan använda `chef-run` för att köra ad-hoc på noder
+
   + `chef-workstation` är ett paket att ladda ner från https://chef.io/downloads
+
 * `chefdk` är ett liknande paket byggt av communityn
 * Med `knife` kan man en hämta community-skrivna kokböcker
 
