@@ -545,7 +545,7 @@ Fördelar
   + automatisering
   + kontroll
 
-* Pull-metoden ger parallela körningar
+* Pull-metoden ger parallella körningar
 * Kraftfullt språk
 * Finns för många OS
 * Kan hantera publika moln
