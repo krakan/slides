@@ -5,25 +5,40 @@ body
   background: white url(none) !important;
 }
 
+img#slant
+{
+  position: fixed !important;
+  right: 0px !important;
+  top: 0px !important;
+  z-index: 8 !important;
+  margin: 0px !important;
+  visibility: visible !important
+}
+
 #slide0 h1
 {
-  color: #000000 !important;
+  color: #772432 !important;
   background: transparent !important;
 }
 
 .slide
 {
+  box-shadow: 0px 0px 3px 0px #eeefee;
   bottom: 0px !important;
   right: 0px !important;
+  border: solid #eeefee;
+  margin: 10px;
+  z-index: 7 !important;
   width: auto !important;
   height: auto !important;
 }
 
 .slide h1
 {
+  padding: 0.3em 0 0 0 !important;
   white-space: nowrap !important;
   text-transform: none !important;
-  color: #000000 !important;
+  color: #772432 !important;
   background: transparent !important;
 }
 
@@ -56,7 +71,7 @@ body
 }
 
 .slide tt, .slide pre {
-  color: #ff4f94 !important;
+  color: #755 !important;
 }
 
 div#header, div#footer
@@ -68,13 +83,14 @@ div#header, div#footer
 
 div#header
 {
+  
   position: fixed;
   bottom: 0px !important;
   right: 0px !important;
   margin: 20px;
   width: auto !important;
   height: 3.6em !important;
-  background: #fff !important;
+  background: linear-gradient(#e2e2e2, white) !important;
 }
 
 div#footer
@@ -85,7 +101,7 @@ div#footer
   background-size: 59px 47px !important;
   background-repeat: no-repeat !important;
   padding-left: 65px !important;
-  color: #0ccccc !important;
+  color: #3a6372 !important;
 
   position: fixed;
   bottom: 0px !important;
@@ -97,13 +113,13 @@ div#footer
 
 div#footer a:link
 {
-  color: #0ccccc !important;
+  color: #3a6372 !important;
 }
 
 a:link, a:visited
 {
   text-decoration: none;
-  color: #0ccccc !important;
+  color: #3a6372 !important;
 }
 
 .incremental, .incremental *, .incremental *:after
@@ -124,7 +140,7 @@ a:link, a:visited
 #controls #navLinks a
 {
   background: #fff !important;
-  color: #0ccccc !important;
+  color: #3a6372 !important;
 }
 
 img.align-bottom, obejct.align-bottom
@@ -178,7 +194,7 @@ img.single
   bottom: 30px;
   text-align: center;
   font-size: 0.5em;
-  color: #0ccccc !important;
+  color: #3a6372 !important;
 }
 
 /* the TODO-list table */
