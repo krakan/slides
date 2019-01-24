@@ -50,7 +50,6 @@ Jonas Linde
 * IT-konsult sedan 1997
 * Infrastruktur
 * Systemutveckling
-* Ledning och Styrning
 * DevOps
 
 .. class:: illustration
@@ -119,6 +118,11 @@ Metadata
 
 :single:`Detaljer`
 ==================
+
+.. class:: right
+.. image:: img/eye.jpg
+     :alt: [eye]
+     :width: 50%
 
 Nodes
 =====
@@ -258,6 +262,11 @@ Nätverk
 :single:`Verktyg`
 =================
 
+.. class:: right
+.. image:: img/tools.jpg
+     :alt: [tools]
+     :width: 40%
+
 Kubectl
 =======
 
@@ -295,17 +304,39 @@ Publika moln
 * AKS
 * m.fl.
 
+.. class:: right
+.. image:: img/k8s-arch.png
+     :alt: [master and worker nodes]
+     :width: 40%
+
 :single:`Demo`
 ==============
+
+.. class:: right
+.. image:: img/burning.jpg
+     :alt: [burning]
+     :width: 40%
 
 Demo
 ====
 
+* https://kubernetes.io/docs/tutorials/hello-minikube/
+
   .. code::
 
      minikube start
-     kubectl run demo --image=nginx --port=80 --replicas=5
-     kubectl ...
+     kubectl create deployment hello-node \
+        --image=gcr.io/hello-minikube-zero-install/hello-node
+     kubectl get all
+     kubectl get events
+     kubectl describe pod
+     kubectl expose deployment hello-node --type=LoadBalancer --port=8080
+     kubectl get all
+     kubectl config view
+     server=$(kubectl config view -o json |
+              jq -r .clusters[].cluster.server | cut -d: -f2)
+     port=$(kubectl get services -o json hello-node | jq .spec.ports[].nodePort)
+     curl -i http:$server:$port/; echo
 
 :single:`Tack för ordet!`
 =========================
