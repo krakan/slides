@@ -12,15 +12,15 @@ handout: $(print)
 	./s52pdf.sh $<
 
 %.html: %.rst
-	LC_ALL=sv_SE.UTF-8 rst2s5 --link-stylesheet --stylesheet=b3.css,$(basename $@).css --smart-quotes=yes --current-slide $< $@
+	LC_ALL=sv_SE.UTF-8 rst2s5 --link-stylesheet --stylesheet=b3init.css,$(basename $@).css --smart-quotes=yes --current-slide $< $@
 	perl -pi -e 's%<div class="layout">%<div class="layout">\n<img id="slant" src="img/slant.png">%' $@
 	cp $@ index.html
 
 %-print.pdf: %.pdf
 	./twoup.sh $?
 
-publish: $(html) $(pdfs)
-	find $(html) index.html b3.css init.css $(pdfs) ui styles img \
+publish: $(html)
+	find $(html) index.html b3.css init.css ui styles img \
 	 -type f -newer .publish -size +0 | \
 	 while read file; do \
 	    aws s3 cp "$$file" s3://jonaseel.se/slides/"$$file"; \

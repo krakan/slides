@@ -63,6 +63,7 @@ Agenda
 * Detaljer
 * Verktyg
 * Demo
+* O.s.v.
 
 .. class:: illustration
 .. image:: img/lingon.png
@@ -79,13 +80,14 @@ Agenda
 Arkitektur
 ==========
 
-* Kubernetes (k8s) is an open-source system for automating deployment,
-  scaling, and management of containerized applications.
+* "Kubernetes (k8s) is an open-source system for automating
+  deployment, scaling, and management of containerized applications."
 
 .. class:: right
 .. image:: img/k8s-arch.png
      :alt: [master and worker nodes]
      :width: 40%
+     :align: right
 
 Varför?
 =======
@@ -338,9 +340,36 @@ Demo
      port=$(kubectl get services -o json hello-node | jq .spec.ports[].nodePort)
      curl -i http:$server:$port/; echo
 
+
+:single:`O.s.v.`
+================
+
+.. class:: right
+.. image:: img/buzz-lightyear.jpg
+     :alt: [to infinity and beyond]
+     :width: 40%
+
+Ytterligare komponenter
+=======================
+
+* ClusteAutoscaler
+
+  * ResourceRequest
+  * ResourceLimit
+
+* DnsController
+* mätvärden
+* monitorering
+* m.m.
+
 :single:`Tack för ordet!`
 =========================
 
 .. class:: illustration
 .. image:: img/dominoes2.jpg
      :alt: [more dominoes]
+
+.. class:: right
+.. image:: http://http.cat/206
+     :alt: [more dominoes]
+     :width: 25%
