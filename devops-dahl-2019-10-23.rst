@@ -2,9 +2,9 @@
 .. This document is formatted for rst2s5
 .. http://docutils.sourceforge.net/
 
-=================
- DevOps bakgrund
-=================
+==================
+ DevOps-filosofin
+==================
 
 |
 
