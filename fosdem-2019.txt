@@ -1,0 +1,15 @@
+Saturday:
+Software Freedom
+Leela Chess Zero
+Perl6 as a compiler
+DNS over HTTPS
+Netflix and FreeBSD
+
+Sunday:
+Impostor Syndrome
+Companies and Communities
+Rootless Kubernetes
+Server Isolation with Nabla
+kubectl-trace
+Writing a CNI
+Fifty years of Unix and Linux
