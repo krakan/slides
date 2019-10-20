@@ -20,8 +20,8 @@ handout: $(print)
 	./twoup.sh $?
 
 publish: $(html)
-	find $(html) index.html b3.css init.css ui styles img \
-	 -type f -newer .publish -size +0 | \
+	find $(html) $(pdfs) index.html b3.css b3init.css init.css ui styles img \
+	 -type f -newer .publish -size +0 2>/dev/null | \
 	 while read file; do \
 	    aws s3 cp "$$file" s3://jonaseel.se/slides/"$$file"; \
 	    aws cloudfront create-invalidation --distribution-id E3B54NF1F05380 --path "/slides/$$file" | \
