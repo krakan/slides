@@ -162,6 +162,21 @@ img.illustration, object.illustration
   z-index: -1;
 }
 
+img.illustration-right, object.illustration-right
+{
+  position: inherit;
+  float: right;
+  bottom: 100px;
+  right: 100px;
+  max-width: 300px;
+  max-height: 250px;
+  width: auto !important;
+  height: auto !important;
+  border-style: none;
+  background: transparent;
+  z-index: -1;
+}
+
 img.right, object.right
 {
   position: fixed;

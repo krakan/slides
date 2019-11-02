@@ -118,3 +118,11 @@ Inkrementering+Iteration
 .. image:: img/iterative-incremental-mona-lisa.png
      :width: 70%
 
+Vår definition av DevOps
+========================
+
+    Filosofi för organisationers kultur, struktur och arbetssätt som gör
+
+    det möjligt att bygga, leverera och underhålla precis rätt IT-tjänst
+
+    mer effektivt och med större tillförlitlighet
