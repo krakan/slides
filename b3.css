@@ -3,11 +3,12 @@ body
   font-size: 2em !important;
   font-family: Helvetica, sans-serif !important;
   background: white url(none) !important;
+  color: #5c5c5c !important;
 }
 
 #slide0 h1
 {
-  color: #000000 !important;
+  color: #0ccccc !important;
   background: transparent !important;
 }
 
@@ -23,7 +24,7 @@ body
 {
   white-space: nowrap !important;
   text-transform: none !important;
-  color: #000000 !important;
+  color: #0ccccc !important;
   background: transparent !important;
 }
 
@@ -63,7 +64,7 @@ div#header, div#footer
 {
   color: #eef !important;
   font-family: Helvetica, sans-serif !important;
-  z-index: 0 !important;
+  z-index: -1 !important;
 }
 
 div#header
@@ -80,7 +81,7 @@ div#header
 div#footer
 {
   background-color: white !important;
-  background-image: url(img/b3.PNG) !important;
+  background-image: url(img/b3-grey.png) !important;
   background-position: 10px 50% !important;
   background-size: 59px 47px !important;
   background-repeat: no-repeat !important;
@@ -239,4 +240,49 @@ td p.g
 tr,td
 {
   height: 100%;
+}
+
+div#arc
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:0;
+    right:0;
+    background-color:#ff4f94;
+    border-radius:0 0 0 100%;
+    z-index: 0;
+}
+div#cut
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top:0;
+    right: 0;
+    background-color:white;
+    border-radius:0 0 0 100%;
+    z-index: 0;
+}
+div#arc2
+{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    bottom:0;
+    right:0;
+    background-color:#f7df04;
+    border-radius: 100% 0 0 0;
+    z-index: 0;
+}
+div#cut2
+{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    bottom: 0;
+    right: 0;
+    background-color:white;
+    border-radius:100% 0 0 0;
+    z-index: 0;
 }
