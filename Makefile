@@ -13,8 +13,7 @@ handout: $(print)
 
 %.html: %.rst
 	LC_ALL=sv_SE.UTF-8 rst2s5 --link-stylesheet --stylesheet=b3.css,$(basename $@).css --smart-quotes=yes --current-slide $< $@
-	perl -pi -e 's%<div class="layout">%<div class="layout">\n<div id="circle"></div>\n<div id="noncircle"></div>\n<div id="circle2"></div>\n<div id="noncircle2"></div>%' $@
-	#perl -pi -e 's%<div class="layout">%<div class="layout">\n<img id="slant" src="img/slant.png">%' $@
+	perl -pi -e 's%<div class="layout">%<div class="layout">\n<div id="parc"></div>\n<div id="pcut"></div>\n<div id="yarc"></div>\n<div id="ycut"></div>%' $@
 	cp $@ index.html
 
 %-print.pdf: %.pdf
@@ -26,6 +25,9 @@ publish: $(html)
 	 while read file; do \
 	    aws s3 cp "$$file" s3://jonaseel.se/slides/"$$file"; \
 	    aws cloudfront create-invalidation --distribution-id E3B54NF1F05380 --path "/slides/$$file" | \
+	    jq .Invalidation.InvalidationBatch.Paths.Items[]; \
+	    test $$file = index.html && \
+	    aws cloudfront create-invalidation --distribution-id E3B54NF1F05380 --path "/slides/" | \
 	    jq .Invalidation.InvalidationBatch.Paths.Items[]; \
 	 done
 	touch .publish
