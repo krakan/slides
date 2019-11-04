@@ -2,9 +2,9 @@
 .. This document is formatted for rst2s5
 .. http://docutils.sourceforge.net/
 
-=================
- DevOps Kundcase
-=================
+=======================
+ DevOps - ett kundcase
+=======================
 
 |
 
@@ -12,7 +12,7 @@
 
 |
 
-.. image:: img/b3-tagline.png
+.. image:: img/b3-tagline-grey.png
    :alt: B3 Init
    :target: http://b3.se/
    :width: 50%
@@ -102,8 +102,9 @@ Tekniska rekommendationer
   * Datadog
   * Splunk
 
-.. class:: illustration-right
+.. class:: right
 .. image:: img/dominoes.png
+   :width: 20%
 
 Tekniska rekommendationer
 =========================
@@ -127,8 +128,9 @@ Tekniska rekommendationer
   * Node
   * Python
 
-.. class:: illustration-right
+.. class:: right
 .. image:: img/dominoes.png
+   :width: 20%
 
 DevOps?
 =======
@@ -143,7 +145,104 @@ DevOps?
 .. class:: illustration
 .. image:: img/checkbox.gif
 
-DevOps i praktiken
-==================
+C.A.M.S.
+========
 
-* ...
+* Culture
+
+  * empowered teams
+  * end-to-end responsibility
+  * experimentation platform
+
+* Automation
+
+  * automated builds and testing
+
+* Metrics
+
+  * metrics and monitoring
+
+* Sharing
+
+  * blameless post mortems
+
+.. class:: right
+.. image:: img/CAMS-graphic_V2.jpg
+   :width: 30%
+
+The three ways
+==============
+
+* First way - systems thinking
+
+  * empowered teams
+  * end-to-end responsibility
+
+* Second way - feedback loop
+
+  * metrics and monitoring
+  * blameless post mortems
+
+* Third way - culture of continuous experimentation
+
+  * automated builds and testing
+  * experimentation platform
+
+.. class:: right
+.. image:: img/thethreeways-devops.png
+   :width: 30%
+
+DevOps i praktiken - problem ett
+================================
+
+* ett team tillhandahåller Jenkins-servrar till övriga team
+* policyn säger att säkerhetspatchar ska appliceras inom 30 dagar
+* vem ansvarar?
+
+.. class:: illustration
+.. image:: img/jenkins.png
+
+DevOps i praktiken - problem två
+================================
+
+* vissa nätverksändringar sker via JIRA-ticket
+* en DNS-ändring kan ta en vecka
+
+.. class:: illustration
+.. image:: img/jira.jpg
+
+DevOps i praktiken - problem tre
+================================
+
+* alla utvecklare använder samma licensserver
+* okända kostnader för produktteamen
+
+.. class:: illustration
+.. image:: img/jetbrains.png
+
+DevOps i praktiken - problem fyra
+=================================
+
+* under Thanksgiving och Jul är det ändringsstopp
+* stressade ändringar innan
+* ansamlade ändringar efter
+* undantag om man implementerat continuous delivery
+
+.. class:: illustration
+.. image:: img/Freezing-Time.jpg
+
+Sammanfattning
+==============
+
+* kunden vet hur de vill att det ska fungera
+* men kulturförändringar är svårt
+* DevOps är kanske mer ett mål än ett medel
+
+.. class:: illustration
+.. image:: img/shangi-la.jpg
+
+:single:`Tack för ordet!`
+=========================
+
+.. class:: illustration
+.. image:: img/dominoes2.jpg
