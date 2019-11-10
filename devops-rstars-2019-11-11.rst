@@ -19,6 +19,10 @@
 
 |
 
+.. image:: img/risingstars.png
+   :alt: Rising Stars
+   :width: 40%
+
 .. class:: center
 
     Jonas Linde <jonas.linde@b3.se>
