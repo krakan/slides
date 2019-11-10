@@ -39,7 +39,7 @@ while test $i -lt $n
 do
     echo -ne "$i\r"
     sleep 0.25
-    scrot $(printf "capture%02d.png" $i)
+    scrot -z $(printf "capture%02d.png" $i)
     xdotool click 1
     ((i++))
 done

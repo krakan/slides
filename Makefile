@@ -25,9 +25,10 @@ publish: $(html)
 	 while read file; do \
 	    aws s3 cp "$$file" s3://jonaseel.se/slides/"$$file"; \
 	    aws cloudfront create-invalidation --distribution-id E3B54NF1F05380 --path "/slides/$$file" | \
-	    jq .Invalidation.InvalidationBatch.Paths.Items[]; \
-	    test $$file = index.html && \
-	    aws cloudfront create-invalidation --distribution-id E3B54NF1F05380 --path "/slides/" | \
-	    jq .Invalidation.InvalidationBatch.Paths.Items[]; \
+	       jq .Invalidation.InvalidationBatch.Paths.Items[]; \
+	    if test $$file = index.html; then \
+	       aws cloudfront create-invalidation --distribution-id E3B54NF1F05380 --path "/slides/" | \
+	          jq .Invalidation.InvalidationBatch.Paths.Items[]; \
+	    fi; \
 	 done
 	touch .publish
