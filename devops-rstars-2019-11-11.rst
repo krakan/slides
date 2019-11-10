@@ -37,9 +37,6 @@
 .. role:: single
    :class: single
 
-.. role:: grey
-   :class: grey
-
 .. default-role:: literal
 
 Kundbeskrivning

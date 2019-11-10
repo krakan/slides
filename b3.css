@@ -30,8 +30,8 @@ body
 
 .slide h1 .single
 {
-  position: fixed;
-  top: 50% !important;
+  position: inherit;
+  top: 300px !important;
   font-size: 130% !important;
 }
 
@@ -149,7 +149,7 @@ img.illustration, object.illustration
 
 img.right, object.right
 {
-  position: fixed;
+  position: inherit;
   top: 250px;
   right: 300px;
 }
@@ -172,14 +172,6 @@ img.single
 {
   content: none !important;
 
-}
-#plink
-{
-  position: fixed;
-  bottom: 30px;
-  text-align: center;
-  font-size: 0.5em;
-  color: #0ccccc !important;
 }
 
 /* the TODO-list table */
@@ -244,7 +236,7 @@ tr,td
 
 div#parc
 {
-    position: absolute;
+    position: fixed;
     width: 200px;
     height: 200px;
     top:0;
@@ -255,7 +247,7 @@ div#parc
 }
 div#pcut
 {
-    position: absolute;
+    position: fixed;
     width: 170px;
     height: 170px;
     top:0;
@@ -267,7 +259,7 @@ div#pcut
 
 div#yarc
 {
-    position: absolute;
+    position: fixed;
     width: 160px;
     height: 160px;
     bottom:0;
@@ -278,7 +270,7 @@ div#yarc
 }
 div#ycut
 {
-    position: absolute;
+    position: fixed;
     width: 120px;
     height: 120px;
     bottom: 0;
