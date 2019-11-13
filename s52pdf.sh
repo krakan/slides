@@ -1,54 +1,72 @@
 #!/bin/bash
 
-if test $# -ne 1
-then
-    echo "usage: $0 <html-file-name>"
+usage() {
+    exec >&2
+    test "$*" && echo -e "$*\n"
+    echo "usage: $0 [--debug] [--pages n[,...]] <html-file-name>"
     exit 1
-fi
+}
 
-name=${1%.html}
-
-n=$(grep -c '"slide"' $name.html)
-
-export GOOGLE_API_KEY=0 GOOGLE_DEFAULT_CLIENT_ID=0 GOOGLE_DEFAULT_CLIENT_SECRET=0
-export DISPLAY=:17
-Xvfb $DISPLAY -screen 0 1920x1080x24+32 >/dev/null 2>&1 &
-metacity 2>/dev/null &
-firefox -no-remote -P other -safe-mode $name.html 2>/dev/null &
-
-i=-6
-while test $i -lt 0
+file=
+pages=
+while test $# -gt 0
 do
-    echo -ne "$i\r"
-    sleep 1
-    ((i++))
-    case $i in
-        -3) xsetroot -solid green
-            wmctrl -ar firefox
-            xdotool key Return
-            ;;
-        -2) xdotool key F11
-            xdotool mousemove 30 30
-            ;;
+    case $1 in
+        -p|--pages)
+            for page in ${2//,/ }
+            do
+                case $page in
+                    *-*) pages+=$(seq ${page%-*} ${page#*-} | tr '\n' ',');;
+                    *) pages+="$page,";;
+                esac
+            done
+            shift;;
+        -x|--debug) set -x;;
+        -h|--help) usage;;
+        -*) usage "unknown option '$1'";;
+        *) test $file && usage || file=$1;;
     esac
+    shift
 done
-echo -ne "  \r"
 
-rm -f capture??.png
-while test $i -lt $n
+name=${file%.html}
+html=$(mktemp pdfsXXXX.html)
+css=$(mktemp pdfsXXXX.css)
+dir=$(mktemp -d pdfsXXXX)
+trap "rm -rf $dir $html $css; mv ui/default/s5-core.css0 ui/default/s5-core.css" EXIT
+mv ui/default/s5-core.css ui/default/s5-core.css0
+cat <<EOF > $css
+.slide { height: 584px !important; }
+#slide0 { font-size: 100% !important; }
+EOF
+
+header=$(sed -n '/"text\/javascript"/d;
+                 /"ui\/default\/outline.css"/,/"operaFix"/d;
+                 s/media="projection"//;
+                 1,/"presentation"/p' $file)
+
+i=0
+for id in $(grep '"slide"' $file | cut -d'"' -f4)
 do
-    echo -ne "$i\r"
-    sleep 0.25
-    scrot -z $(printf "capture%02d.png" $i)
-    xdotool click 1
-    ((i++))
+    if test -z "$pages" || echo ,$pages | grep -q ,$i,
+    then
+        {
+            echo "$header"
+            sed -n '/"'$id'"/,/"slide"/p' $file | sed '$d'
+            echo -e "</div>\n</body>\n</html>"
+        } > $html
+        wkhtmltopdf \
+            --user-style-sheet $css \
+            --dpi 120 \
+            --margin-bottom 0 \
+            --margin-top 0 \
+            --margin-left 0 \
+            --margin-right 0 \
+            --page-width 1280 \
+            --page-height 720px \
+            $html $(printf $dir/slide%03d.pdf $i)
+    fi
+    let i=i+1
 done
-echo -ne ".  \r"
 
-xdotool key ctrl+w
-xdotool key ctrl+w
-
-convert capture??.png $name.pdf
-rm -f capture??.png
-
-kill %2 %1
+pdfunite $dir/slide???.pdf $name.pdf

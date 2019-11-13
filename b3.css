@@ -2,7 +2,7 @@ body
 {
   font-size: 2em !important;
   font-family: Helvetica, sans-serif !important;
-  background: white url(none) !important;
+  background: white !important;
   color: #5c5c5c !important;
 }
 
@@ -135,7 +135,7 @@ img.align-bottom, obejct.align-bottom
 
 img.illustration, object.illustration
 {
-  position: inherit;
+  position: fixed;
   bottom: 100px;
   left: 100px;
   max-width: 300px;
@@ -149,7 +149,7 @@ img.illustration, object.illustration
 
 img.right, object.right
 {
-  position: inherit;
+  position: fixed;
   top: 250px;
   right: 300px;
 }
