@@ -10,8 +10,6 @@
 
 |
 
-|
-
 .. image:: img/b3-tagline-grey.png
    :alt: B3 Init
    :target: http://b3.se/
