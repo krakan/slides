@@ -3,7 +3,7 @@ parts = $(basename  $(wildcard *.rst))
 pdfs = $(addsuffix .pdf,$(parts))
 print = $(addsuffix -print.pdf,$(parts))
 
-html = $(addsuffix .html,$(parts))
+html = $(addsuffix .html,$(parts)) index.html
 
 all: $(html)
 handout: $(print)
@@ -11,10 +11,12 @@ handout: $(print)
 %.pdf: %.html
 	./s52pdf.sh $<
 
+index.html: index.sh *.rst
+	./$< > $@
+
 %.html: %.rst
 	LC_ALL=sv_SE.UTF-8 rst2s5 --link-stylesheet --stylesheet=b3.css,$(basename $@).css --smart-quotes=yes --current-slide $< $@
 	perl -pi -e 's%<div class="layout">%<div class="layout">\n<div id="parc"></div>\n<div id="pcut"></div>\n<div id="yarc"></div>\n<div id="ycut"></div>%' $@
-	cp $@ index.html
 
 %-print.pdf: %.pdf
 	./twoup.sh $?
