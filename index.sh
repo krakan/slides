@@ -6,14 +6,20 @@ cat <<EOF
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
-    <title>Diverse presenttioner</title>
+    <title>Presenttioner</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta  name="author" content="Jonas J Linde">
     <link rel="stylesheet" href="b3.css" type="text/css" />
-    <style type="text/css"> <!-- td { padding-left: 30px; } --> </style>
+    <style type="text/css">
+      <!--
+      td { padding-left: 30px; }
+      a:hover { color: #ff4f94 !important; text-decoration: underline; }
+      a:visited { color: #ff4f94 !important; }
+      -->
+    </style>
   </head>
   <body>
-    <h1>Diverse presentationer</h1>
+    <h1>Presentationer</h1>
     <div id="parc"></div><div id="pcut"></div>
     <div id="yarc"></div><div id="ycut"></div>
     <table>
@@ -32,3 +38,8 @@ cat <<EOF
   </body>
 </html>
 EOF
+
+# #5c5c5c;
+# #f7df04;
+# #0ccccc;
+# #ff4f94;
