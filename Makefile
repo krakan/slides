@@ -3,7 +3,7 @@ parts = $(basename  $(wildcard *.rst))
 pdfs = $(addsuffix .pdf,$(parts))
 print = $(addsuffix -print.pdf,$(parts))
 
-html = $(addsuffix .html,$(parts)) index.html
+html = $(addsuffix .html,$(parts)) index.html tdbi-2019.html
 
 all: $(html)
 handout: $(print)

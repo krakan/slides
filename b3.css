@@ -64,7 +64,7 @@ div#header, div#footer
 {
   color: #eef !important;
   font-family: Helvetica, sans-serif !important;
-  z-index: -1 !important;
+  z-index: -2 !important;
 }
 
 div#header
@@ -147,11 +147,13 @@ img.illustration, object.illustration
   z-index: -1;
 }
 
-img.right, object.right
+img.right, object.right, a.right img
 {
   position: fixed;
-  top: 250px;
+  top: 150px;
   right: 300px;
+  max-height: 70%;
+  max-width: 50%;
 }
 
 img.single
@@ -243,7 +245,7 @@ div#parc
     right:0;
     background-color:#ff4f94;
     border-radius:0 0 0 100%;
-    z-index: 0;
+    z-index: -1;
 }
 div#pcut
 {
@@ -254,7 +256,7 @@ div#pcut
     right: 0;
     background-color:white;
     border-radius:0 0 0 100%;
-    z-index: 0;
+    z-index: -1;
 }
 
 div#yarc
@@ -266,7 +268,7 @@ div#yarc
     right:0;
     background-color:#f7df04;
     border-radius: 100% 0 0 0;
-    z-index: 0;
+    z-index: -1;
 }
 div#ycut
 {
@@ -277,5 +279,5 @@ div#ycut
     right: 0;
     background-color:white;
     border-radius:100% 0 0 0;
-    z-index: 0;
+    z-index: -1;
 }
