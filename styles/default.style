@@ -17,7 +17,7 @@
     spacing-header: 5mm
     spacing-footer: 5mm
 
-    # The first template is one of the 'pageTemplates"
+    # The first template is one of the 'pageTemplates'
     # (See next section)
 
     firstTemplate: oneColumn
@@ -270,7 +270,7 @@
                     [LEFTPADDING, [ 0, 0 ], [ -1, -1 ], 0 ]
                     [BOTTOMPADDING, [ 0, 0 ], [ -1, -1 ], 0 ]
                     [RIGHTPADDING, [ 0, 0 ], [ -1, -1 ], 0 ]
-                    
+
     fieldname:
       parent: bodytext
       alignment: TA_RIGHT
