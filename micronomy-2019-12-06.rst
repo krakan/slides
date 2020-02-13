@@ -219,6 +219,30 @@ Raku
 .. class:: illustration
 .. image:: img/camelia-logo.png
 
+Nytt mellan 6.c och 6.d
+=======================
+
+* några exempel
+
+  * `.gist` can be called on `Attribute`
+  * `min`/`max` routines also work on `Hash`:es
+  * `next` can be used in `whenever`
+  * `.first` can take `:kv`
+  * `symlink`: create a file symlink
+  * new `atomicint` operators
+  * `≤`, `≥`, and `≠` operators
+  * `$*KERNEL` provides `.hostname`
+  * `$*HOME`: user's home directory
+  * `Nil.chrs` returns a `\\0`
+  * Zen slicing of `Seq`:s does *not* cache them
+
+* https://github.com/perl6/roast/blob/master/docs/announce/6.d.md
+* men framför allt mängder av performance-förbättringar
+
+.. class:: right
+.. image:: img/200.jpg
+   :width: 30%
+
 :single:`Tack för ordet!`
 =========================
 
