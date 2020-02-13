@@ -178,3 +178,13 @@ Nomad
 
 .. class:: illustration
 .. image:: img/nomad.svg
+
+See you there next time!
+========================
+
+* FOSDEM: 2021-01-30 -- 31
+* CfgMgmtCamp: 2020-02-01 -- 03
+
+.. class:: right
+.. image:: img/206.jpg
+   :alt: [206 Partial Content]
