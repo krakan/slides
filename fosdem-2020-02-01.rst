@@ -68,6 +68,8 @@ Fixing the Kubernetes clusterfuck
 =================================
 
 * Falco - Wireshark for kernel packages
+* Built on top on IPF
+* Can monitor and prevent malicious behaviour
 * Demo - privilege escalation in Kubernetes
 
 .. class:: illustration
@@ -117,10 +119,11 @@ Identity box
 SCION
 =====
 
-* people often try to solve internet on top of internet
-* routing is hard
-* Scion has decentralized routing
+* People often try to solve internet on top of internet
+* Routing is hard
+* SCION has decentralized routing
 * The end host defines the path
+* It can coexist with IP
 * **S**\calability, **C**\ontrol and **I**\solation on next-generati **O**\n **N**\etworks
 
 .. class:: illustration
