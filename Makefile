@@ -22,7 +22,7 @@ index.html: index.sh *.rst
 	./twoup.sh $?
 
 publish: $(html)
-	find $(html) $(pdfs) index.html b3.css b3init.css init.css ui styles img \
+	find $(html) $(pdfs) index.html b3.css b3init.css init.css devopsdayssth-2020-10-12.css ui styles img try-chef \
 	 -type f -newer .publish -size +0 2>/dev/null | \
 	 while read file; do \
 	    aws s3 cp "$$file" s3://jonaseel.se/slides/"$$file"; \
