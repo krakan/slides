@@ -7,6 +7,7 @@ usage() {
     exit 1
 }
 
+keep=
 file=
 pages=
 while test $# -gt 0
@@ -22,6 +23,7 @@ do
             done
             shift;;
         -x|--debug) set -x;;
+        -k|--keep) keep=1;;
         -h|--help) usage;;
         -*) usage "unknown option '$1'";;
         *) test $file && usage || file=$1;;
@@ -33,7 +35,7 @@ name=${file%.html}
 html=$(mktemp pdfsXXXX.html)
 css=$(mktemp pdfsXXXX.css)
 dir=$(mktemp -d pdfsXXXX)
-trap "rm -rf $dir $html $css; mv ui/default/s5-core.css0 ui/default/s5-core.css" EXIT
+test $keep || trap "rm -rf $dir $html $css; mv ui/default/s5-core.css0 ui/default/s5-core.css" EXIT
 mv ui/default/s5-core.css ui/default/s5-core.css0
 cat <<EOF > $css
 .slide { height: 584px !important; }
@@ -56,6 +58,7 @@ do
             echo -e "</div>\n</body>\n</html>"
         } > $html
         wkhtmltopdf \
+            --enable-local-file-access \
             --user-style-sheet $css \
             --dpi 120 \
             --margin-bottom 0 \
