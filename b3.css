@@ -35,6 +35,10 @@ body
   font-size: 130% !important;
 }
 
+ol.loweralpha {
+    list-style-type: lower-alpha;
+}
+
 .slide ol
 {
   margin-left: 5% !important;
