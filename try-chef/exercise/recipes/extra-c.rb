@@ -1,0 +1,1 @@
+execute 'apt upgrade -y'
