@@ -1,4 +1,4 @@
-include_recipe 'exercise::exercise-6'
-include_recipe 'exercise::exercise-71'
-include_recipe 'exercise::exercise-72'
-include_recipe 'exercise::exercise-8'
+include_recipe 'exercise::extra-1'
+include_recipe 'exercise::extra-b1'
+include_recipe 'exercise::extra-b2'
+include_recipe 'exercise::extra-c'
