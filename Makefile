@@ -31,7 +31,7 @@ publish: $(html)
 	       jq .Invalidation.InvalidationBatch.Paths.Items[]; \
 	    if test $$file = index.html; then \
 	       aws cloudfront create-invalidation --distribution-id E3B54NF1F05380 --path "/slides/" | \
-	          jq .Invalidation.InvalidationBatch.Paths.Items[]; \
+		 jq .Invalidation.InvalidationBatch.Paths.Items[]; \
 	    fi; \
 	 done
 	touch .publish

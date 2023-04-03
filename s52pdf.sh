@@ -38,7 +38,7 @@ dir=$(mktemp -d pdfsXXXX)
 test $keep || trap "rm -rf $dir $html $css; mv ui/default/s5-core.css0 ui/default/s5-core.css" EXIT
 mv ui/default/s5-core.css ui/default/s5-core.css0
 cat <<EOF > $css
-.slide { height: 584px !important; }
+.slide { height: 720px !important; }
 #slide0 { font-size: 100% !important; }
 EOF
 
@@ -65,9 +65,9 @@ do
             --margin-top 0 \
             --margin-left 0 \
             --margin-right 0 \
-            --page-width 1280 \
-            --page-height 720px \
-            $html $(printf $dir/slide%03d.pdf $i)
+            --page-width 1529 \
+            --page-height 861px \
+            $html $(printf $dir/slide%03d.pdf $i) 2>&1 | grep -Fv '(ignore)'
     fi
     let i=i+1
 done

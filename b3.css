@@ -47,12 +47,19 @@ ol.loweralpha {
 
 .slide ul ol
 {
+  margin: .5em !important;
   line-height: 1 !important;
 }
 .slide ul ol li
 {
   margin: .2em !important;
   font-size: 85% !important;
+}
+
+.slide ul ul
+{
+  margin: .5em !important;
+  line-height: 1 !important;
 }
 
 .slide .narrow li
@@ -143,7 +150,7 @@ img.illustration, object.illustration
   bottom: 100px;
   left: 100px;
   max-width: 300px;
-  max-height: 250px;
+  max-height: 150px;
   width: auto !important;
   height: auto !important;
   border-style: none;
