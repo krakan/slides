@@ -47,7 +47,7 @@
 The Perl and Raku Foundation
 ============================
 
-* *Yet Another Society* ®
+* *Yet Another Society* :sup:`®`
 
   + aka. *The Perl Foundation*
   + aka. *The Perl and Raku Foundation*
@@ -63,7 +63,7 @@ The Perl and Raku Foundation
 
     + en svensk, en holländare, en amerikan och en ukrainare
     + norrmannen och engelsmannen dök aldrig upp
-    + den italienska kyparen kan ha hetat Bellman
+    + den italienska kyparen kan eventuellt ha hetat Bellman
 
 .. class:: illustration
 .. image:: img/tprf.png
