@@ -54,9 +54,10 @@ Open Spaces - regelverk
      :alt: [open spaces principles]
      :width: 75%
 
-Over and out
-============
+https://http.cat/425
+====================
 
-.. image:: img/sleeping_kitteh.jpg
-     :alt: [sovande kattunge]
-     :width: 50%
+.. image:: img/425.jpg
+     :alt: [unordered collection]
+     :class: fit
+
