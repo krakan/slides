@@ -50,6 +50,7 @@ header=$(sed -n '/"text\/javascript"/d;
 i=0
 for id in $(grep '"slide"' $file | cut -d'"' -f4)
 do
+    echo Page $i
     if test -z "$pages" || echo ,$pages | grep -q ,$i,
     then
         {

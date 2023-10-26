@@ -26,3 +26,6 @@ cat loadbalancer/templates/haproxy.cfg.erb
 chef-run lb loadbalancer
 curl lb
 curl lb
+
+exit
+docker-compose down
