@@ -181,6 +181,8 @@ function go(step) {
 	loadNote();
 	permaLink();
 	number = undef;
+	// randomize B3 circle segments
+	b3segments();
 }
 
 function goTo(target) {
@@ -268,6 +270,8 @@ function keys(key) {
 			case 34: // page down
 			case 39: // rightkey
 			case 40: // downkey
+			case 74: // j
+			case 76: // l
 				if(number != undef) {
 					go(number);
 				} else if (!incrementals[snum] || incpos >= incrementals[snum].length) {
@@ -279,6 +283,10 @@ function keys(key) {
 			case 33: // page up
 			case 37: // leftkey
 			case 38: // upkey
+			case 8:  // backspace
+			case 46: // delete
+			case 72: // h
+			case 75: // k
 				if(number != undef) {
 					go(-1 * number);
 				} else if (!incrementals[snum] || incpos <= 0) {
@@ -758,7 +766,46 @@ function startup() {
 	document.onkeyup = keys;
 	document.onkeypress = trap;
 	document.onclick = clicker;
+
+  document.getElementById("svg").innerHTML = '<svg>' +
+    '<circle id="b3c0" cx="100vw" cy="0" r="200" style="fill:none; stroke:red; stroke-width:30;" opacity="0.5" />' +
+    '<circle id="b3c1" cx="100vw" cy="50vh" r="100" style="fill:none; stroke:yellow; stroke-width:10px;" opacity="0.5" />' +
+    '<circle id="b3c2" cx="100vw" cy="100vh" r="100" style="fill:none; stroke:cyan; stroke-width:10px;" opacity="0.5" />' +
+    '</svg>';
 }
 
 window.onload = startup;
 window.onresize = function(){setTimeout('windowChange()',5);}
+
+function b3segments() {
+  // randomize B3 circle segments
+
+  var colors = ['#ff4f94','#f7df04','#0ccccc','#3600cc','#5c5c5c'];
+  var color0 = Math.floor(Math.random() * colors.length);
+  var color1 = color0;
+  var color2 = color0;
+  while (color1 == color0) {
+    color1 = Math.floor(Math.random() * colors.length);
+  }
+  while (color2 == color0 || color2 == color1) {
+    color2 = Math.floor(Math.random() * colors.length);
+  }
+
+  var root = document.querySelector(':root');
+  root.style.setProperty('--c0', colors[color0]);
+  root.style.setProperty('--c1', colors[color1]);
+  root.style.setProperty('--c2', colors[color2]);
+
+  for (var i = 0; i < 3; i++) {
+    if (Math.floor(Math.random() * 3)) {
+      root.style.setProperty('--d' + i, Math.floor(Math.random() * 400) + 100);
+    } else {
+      root.style.setProperty('--d' + i, 0);
+    }
+    root.style.setProperty('--r' + i, Math.random() * 0.2 + 0.7);
+    root.style.setProperty('--y' + i, Math.floor(Math.random() * 300) -30);
+    root.style.setProperty('--x' + i, Math.floor(Math.random() * 300) -30);
+  }
+
+  document.getElementById('b3c0').setAttribute('r', '100');
+}

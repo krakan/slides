@@ -16,7 +16,7 @@ index.html: index.sh *.rst
 
 %.html: %.rst
 	LC_ALL=sv_SE.UTF-8 rst2s5 --link-stylesheet --stylesheet=b3.css,$(basename $@).css --smart-quotes=yes --current-slide $< $@
-	perl -pi -e 's%<div class="layout">%<div class="layout">\n<div id="parc"></div>\n<div id="pcut"></div>\n<div id="yarc"></div>\n<div id="ycut"></div>%' $@
+	perl -pi -e 's%<div class="layout">%<div class="layout">\n<div id="arc0"></div>\n<div id="cut0"></div>\n<div id="arc1"></div>\n<div id="cut1"></div>\n<div id="arc2"></div>\n<div id="cut2"></div>%' $@
 
 %-print.pdf: %.pdf
 	./twoup.sh $?
