@@ -76,11 +76,8 @@ Agenda
 * Hur ser framtiden ut?
 
 .. class:: illustration
-.. image:: img/lingon.png
-     :alt: [lingon]
-
-
-.. class:: single
+.. image:: img/dominoes.png
+     :alt: [domino]
 
 :single:`Hur började det?`
 ==========================
@@ -215,6 +212,13 @@ Möjligheter
 .. image:: img/devopsteam.png
      :alt: [DevOps Team Antipattern]
 
+Kultur är svårt
+===============
+
+.. image:: img/devops_mindset_values.webp
+     :alt: [DevOps Culture]
+     :class: fit
+
 Antipatterns
 ============
 
@@ -222,7 +226,7 @@ Antipatterns
 * DevOps-Engineer
 * DevOps-Tools
 
-.. class:: Right
+.. class:: right
 .. image:: img/MessOnAPlate.webp
      :alt: [Messy Plate]
      :width: 30%
@@ -280,18 +284,11 @@ DevQAOps & DevSecOps
      :alt: [Dev & Ops Silos]
      :class: fit
 
-DevOps is dead
+DevOps is Dead
 ==============
 
 .. image:: img/devopsisdead.jpg
      :alt: [DevOps is Dead]
-     :class: fit
-
-Kultur är svårt
-===============
-
-.. image:: img/devops_mindset_values.webp
-     :alt: [DevOps Culture]
      :class: fit
 
 :single:`Vad gäller idag?`
@@ -302,6 +299,22 @@ DevOpsDays
 .. class:: illustration
 .. image:: img/DevOpsDays.png
      :alt: [DevOpsDays]
+
+DevOpsDays
+==========
+
+* 2009 - Ghent
+* 2010 - Sydney, Hamburg, Mountain View, São Paulo
+* 2013 - 22 platser
+* 2017 - 51 platser
+* 2019 - 80 platser
+* 2020 - 32 platser
+* 2023 - 62 platser
+
+.. class:: right
+.. image:: img/DevOpsDaysStockholm-Logo.png
+     :alt: [DevOpsDays Stockholm]
+     :width: 15%
 
 DevOpsDays London 2023
 ======================
@@ -319,7 +332,7 @@ DevOpsDays London 2023
 
 .. class:: right
 .. image:: img/dodldn.png
-   :width: 20%
+     :width: 15%
 
 State of DevOps 2023
 ====================
@@ -331,6 +344,16 @@ State of DevOps 2023
 * **Flexible** *infrastructure is key to success*
 * *None of this works without investing in* **culture**
 
+.. class:: illustration
+.. image:: img/dora.png
+     :alt: [DevOps Research and Assessment]
+
+SAFe
+====
+
+.. image:: img/calmr.png
+   :class: fit
+
 :single:`Hur ser framtiden ut?`
 ===============================
 
@@ -340,15 +363,17 @@ Mot oändligheten och vidare!
 .. image:: img/buzz-lightyear.jpeg
      :alt: [Buzz Lightyear]
 
-Platform Engineering
-====================
+Förutsägelser
+=============
 
-* Something-as-a-Service
-* Psychological Safety
+* DevOps som kultur är här för att stanna
+* Platform Engineering och Something-as-a-Service behöver också DevOps
+* DevOps som buzzword kommer att finnas kvar ett tag till
+* Psykologisk trygghet är en viktigt del av DevOps-kulturen
 
-SAFe
-====
-
+.. class:: illustration
+.. image:: img/oracle.png
+     :alt: [Orakel]
 
 Over and out
 ============
@@ -356,3 +381,7 @@ Over and out
 .. image:: img/sleeping_kitteh.jpg
      :alt: [sovande kattunge]
      :class: fit
+
+.. class:: illustration
+.. image:: img/dominoes2.jpg
+     :alt: [domino]
