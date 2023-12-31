@@ -1,6 +1,6 @@
 // S5 v1.2a1 slides.js -- released into the Public Domain
 //
-// Please see http://www.meyerweb.com/eric/tools/s5/credits.html for information 
+// Please see http://www.meyerweb.com/eric/tools/s5/credits.html for information
 // about all the wonderful and talented contributors to this code!
 
 var undef;
@@ -79,7 +79,7 @@ function nodeValue(node) {
 		var children = node.childNodes;
 		for (var i = 0; i < children.length; ++i) {
 			result += nodeValue(children[i]);
-		}		
+		}
 	}
 	else if (node.nodeType == 3) {
 		result = node.nodeValue;
@@ -122,9 +122,9 @@ function currentSlide() {
 	} else {
 		cs = document.currentSlide;
 	}
-	cs.innerHTML = '<a id="plink" href="">' + 
-		'<span id="csHere">' + snum + '<\/span> ' + 
-		'<span id="csSep">\/<\/span> ' + 
+	cs.innerHTML = '<a id="plink" href="">' +
+		'<span id="csHere">' + snum + '<\/span> ' +
+		'<span id="csSep">\/<\/span> ' +
 		'<span id="csTotal">' + (smax-1) + '<\/span>' +
 		'<\/a>'
 		;
@@ -173,7 +173,7 @@ function go(step) {
 	if (isOp) { //hallvord
 		location.hash = nid;
 	} else {
-		ce.style.visibility = 'hidden'; 
+		ce.style.visibility = 'hidden';
 		ne.style.visibility = 'visible';
 	} // /hallvord
 	jl.selectedIndex = snum;
@@ -181,8 +181,8 @@ function go(step) {
 	loadNote();
 	permaLink();
 	number = undef;
-	// randomize B3 circle segments
-	b3segments();
+	// randomize B3 circles
+	b3circles();
 }
 
 function goTo(target) {
@@ -488,7 +488,7 @@ function notOperaFix() {
 	var slides = document.getElementById('slideProj');
 	var outline = document.getElementById('outlineStyle');
 	slides.setAttribute('media','screen');
-	outline.disabled = true;
+	if (outline) {outline.disabled = true;}
 	if (isGe) {
 		slides.setAttribute('href','null');   // Gecko fix
 		slides.setAttribute('href',slideCSS); // Gecko fix
@@ -502,7 +502,7 @@ function notOperaFix() {
 
 function getIncrementals(obj) {
 	var incrementals = new Array();
-	if (!obj) 
+	if (!obj)
 		return incrementals;
 	var children = obj.childNodes;
 	for (var i = 0; i < children.length; i++) {
@@ -604,7 +604,7 @@ function loadNote() {
 	if (document.getElementById('note' + (snum + 1))) {
 		nextNotes = document.getElementById('note' + (snum + 1)).innerHTML;
 	}
-	
+
 	var jl = document.getElementById('jumplist');
 	var slideTitle = jl.options[jl.selectedIndex].text.replace(/^\d+\s+:\s+/, '') + ((jl.selectedIndex) ? ' (' + jl.selectedIndex + '/' + (smax - 1) + ')' : '');
 	if (incrementals[snum].length > 0) {
@@ -616,7 +616,7 @@ function loadNote() {
 	} else {
 		var nextTitle = '[end of slide show]';
 	}
-	
+
 	if (s5NotesWindow && !s5NotesWindow.closed && s5NotesWindow.document) {
 		s5NotesWindow.document.getElementById('slide').innerHTML = slideTitle;
 		s5NotesWindow.document.getElementById('notes').innerHTML = notes;
@@ -714,22 +714,21 @@ function alterRemainingTime(amt) {
 
 function formatTime(msecs)  {
 	var time = new Date(msecs);
-	
+
 	var hrs = time.getUTCHours() + ((time.getUTCDate() -1) * 24); // I doubt anyone will spend more than 24 hours on a presentation or single slide but just in case...
 	hrs = (hrs < 10) ? '0'+hrs : hrs;
 	if (hrs == 'NaN' || isNaN(hrs)) hrs = '--';
-	
+
 	var min = time.getUTCMinutes();
 	min = (min < 10) ? '0'+min : min;
 	if (min == 'NaN' || isNaN(min)) min = '--';
-	
+
 	var sec = time.getUTCSeconds();
 	sec = (sec < 10) ? '0'+sec : sec;
 	if (sec == 'NaN' || isNaN(sec)) sec = '--';
 
 	return hrs + ':' + min + ':' + sec;
 }
-
 function readTime(val) {
 	var sregex = /:/;
 	var matches = sregex.exec(val);
@@ -766,46 +765,53 @@ function startup() {
 	document.onkeyup = keys;
 	document.onkeypress = trap;
 	document.onclick = clicker;
-
-  document.getElementById("svg").innerHTML = '<svg>' +
-    '<circle id="b3c0" cx="100vw" cy="0" r="200" style="fill:none; stroke:red; stroke-width:30;" opacity="0.5" />' +
-    '<circle id="b3c1" cx="100vw" cy="50vh" r="100" style="fill:none; stroke:yellow; stroke-width:10px;" opacity="0.5" />' +
-    '<circle id="b3c2" cx="100vw" cy="100vh" r="100" style="fill:none; stroke:cyan; stroke-width:10px;" opacity="0.5" />' +
-    '</svg>';
 }
 
 window.onload = startup;
 window.onresize = function(){setTimeout('windowChange()',5);}
 
-function b3segments() {
-  // randomize B3 circle segments
+function b3circles() {
+  if (document.getElementsByTagName("svg").length == 0) {
+    svg = document.createElement("svg");
+    svg.style.overflow = "visible";
+    svg.style.zIndex = 7;
+    svg.style.position = "fixed";
+    circle = document.createElement("circle");
+    circle.style.opacity = 0.5;
+    circle.setAttribute("fill", "none");
+    circle.setAttribute("id", "b3c0");
+    svg.appendChild(circle);
+    svg.appendChild(circle.cloneNode());
+    circle.setAttribute("id", "b3c1");
+    svg.appendChild(circle.cloneNode());
+    circle.setAttribute("id", "b3c2");
+    document.getElementsByClassName("layout")[0].appendChild(svg);
+    document.getElementsByClassName("layout")[0].innerHTML+= "";
 
-  var colors = ['#ff4f94','#f7df04','#0ccccc','#3600cc','#5c5c5c'];
-  var color0 = Math.floor(Math.random() * colors.length);
-  var color1 = color0;
-  var color2 = color0;
-  while (color1 == color0) {
-    color1 = Math.floor(Math.random() * colors.length);
-  }
-  while (color2 == color0 || color2 == color1) {
-    color2 = Math.floor(Math.random() * colors.length);
+    if (document.getElementById("parc")) {
+      document.getElementById("parc").remove()
+      document.getElementById("pcut").remove();
+      document.getElementById("yarc").remove()
+      document.getElementById("ycut").remove();
+    }
   }
 
-  var root = document.querySelector(':root');
-  root.style.setProperty('--c0', colors[color0]);
-  root.style.setProperty('--c1', colors[color1]);
-  root.style.setProperty('--c2', colors[color2]);
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+  var colors = ['#ff4f94', '#f7df04', '#0ccccc', '#3600cc', '#5c5c5c'];
 
   for (var i = 0; i < 3; i++) {
-    if (Math.floor(Math.random() * 3)) {
-      root.style.setProperty('--d' + i, Math.floor(Math.random() * 400) + 100);
-    } else {
-      root.style.setProperty('--d' + i, 0);
-    }
-    root.style.setProperty('--r' + i, Math.random() * 0.2 + 0.7);
-    root.style.setProperty('--y' + i, Math.floor(Math.random() * 300) -30);
-    root.style.setProperty('--x' + i, Math.floor(Math.random() * 300) -30);
+    var circle = document.getElementById("b3c" + i);
+    var r = Math.floor((Math.random() * 0.2 + 0.05) * height);
+    var x = Math.floor((Math.random() * 0.4 + 0.8) * width);
+    var y = Math.floor((Math.random() - 0.5) * height / 3) + i / 2 * height;
+    var w = Math.floor((Math.random() * 0.4 + 0.1) * r);
+    var color = colors.splice(Math.floor(Math.random() * colors.length), 1);
+    //var color = colors.splice(1, 1);
+    circle.setAttribute("r", r);
+    circle.setAttribute("cx", x);
+    circle.setAttribute("cy", y);
+    circle.setAttribute("stroke-width", w);
+    circle.setAttribute("stroke", color);
   }
-
-  document.getElementById('b3c0').setAttribute('r', '100');
 }

@@ -298,15 +298,10 @@ tr,td
 
 :root {
     --c0: #ff4f94;
-    --d0: 400;  /* 200 - 500 */
-    --r0: 0.7; /* 0.7 - 0.9*/
-    --y0: 20; /* -30 - 30 */
-    --x0: 10; /* -30 - 30 */
-    --c1: #0ccccc;
-    --d1: 0;
-    --r1: 0.8;
-    --y1: -10;;
-    --x1: -30;;
+    --d0: 400;
+    --r0: 0.7;
+    --y0: 20;
+    --x0: 10;
     --c2: #f7df04;
     --d2: 320;
     --r2: 0.75;
@@ -314,7 +309,7 @@ tr,td
     --x2: -30;;
 }
 
-div#arc0
+div#parc
 {
     position: fixed;
     width: calc(var(--d0) * 1px);
@@ -326,7 +321,7 @@ div#arc0
     z-index: 4;
     opacity: 0.5;
 }
-div#cut0
+div#pcut
 {
     position: fixed;
     width: calc(var(--d0) * var(--r0) * 1px);
@@ -338,31 +333,7 @@ div#cut0
     z-index: 5;
 }
 
-div#arc1
-{
-    position: fixed;
-    width: calc(var(--d1) * 1px);
-    height: calc(var(--d1) * 1px);
-    bottom: calc(50vh + (var(--d1) / -2 + var(--y1)) * 1px);
-    right: calc((var(--d1) / -2 + var(--x1)) * 1px);
-    background-color: var(--c1);
-    border-radius: 100%;
-    z-index: 6;
-    opacity: 0.5;
-}
-div#cut1
-{
-    position: fixed;
-    width: calc(var(--d1) * var(--r1) * 1px);
-    height: calc(var(--d1) * var(--r1) * 1px);
-    bottom: calc(50vh + (var(--d1) * var(--r1) / -2 + var(--y1)) * 1px);
-    right: calc((var(--d1) * var(--r1) / -2 + var(--x1)) * 1px);
-    background-color: white;
-    border-radius: 100%;
-    z-index: 7;
-}
-
-div#arc2
+div#yarc
 {
     position: fixed;
     width: calc(var(--d2) * 1px);
@@ -374,7 +345,7 @@ div#arc2
     z-index: 8;
     opacity: 0.5;
 }
-div#cut2
+div#ycut
 {
     position: fixed;
     width: calc(var(--d2) * var(--r2) * 1px);
@@ -384,10 +355,4 @@ div#cut2
     background-color: white;
     border-radius: 100%;
     z-index: 9;
-}
-
-div#svg svg
-{
-    position: fixed;
-    overflow: visible;
 }
