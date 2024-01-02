@@ -798,7 +798,7 @@ function b3circles() {
 
   var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-  var colors = ['#ff4f94', '#f7df04', '#0ccccc', '#3600cc', '#5c5c5c'];
+  var colors = ['#ff4f94', '#f7df04', '#0ccccc', '#3600cc'];
 
   for (var i = 0; i < 3; i++) {
     var circle = document.getElementById("b3c" + i);
