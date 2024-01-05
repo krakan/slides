@@ -71,13 +71,25 @@ Agenda
 * Hur började det?
 * Hur har det utvecklats?
 * Vad fann vi för utmaningar?
-* Har vi gett upp kulturen?
 * Vad gäller idag?
 * Hur ser framtiden ut?
 
 .. class:: illustration
 .. image:: img/dominoes.png
      :alt: [domino]
+
+Definition av DevOps
+====================
+
+Filosofi för organisationers *kultur*, *struktur* och *arbetssätt* som gör det
+
+möjligt att *bygga*, *leverera* och *underhålla* precis rätt IT-tjänst
+
+mer *effektivt* och med större *tillförlitlighet*
+
+.. class:: illustration
+.. image:: img/b3penguin.png
+     :alt: [B3 Init]
 
 :single:`Hur började det?`
 ==========================
@@ -334,8 +346,8 @@ DevOpsDays London 2023
 .. image:: img/dodldn.png
      :width: 15%
 
-State of DevOps 2023
-====================
+State of DevOps Report 2023
+===========================
 
 * *Focus on* **users**
 * *Technical* **capabilities** *predict performance*
