@@ -42,8 +42,7 @@ cat <<EOF > $css
 #slide0 { font-size: 100% !important; }
 EOF
 
-header=$(sed -n '/"text\/javascript"/d;
-                 /"ui\/default\/outline.css"/,/"operaFix"/d;
+header=$(sed -n '/"ui\/default\/outline.css"/,/"operaFix"/d;
                  s/media="projection"//;
                  1,/"presentation"/p' $file)
 
@@ -59,6 +58,7 @@ do
             echo -e "</div>\n</body>\n</html>"
         } > $html
         wkhtmltopdf \
+            --debug-javascript \
             --enable-local-file-access \
             --user-style-sheet $css \
             --dpi 120 \

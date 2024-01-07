@@ -765,12 +765,16 @@ function startup() {
 	document.onkeyup = keys;
 	document.onkeypress = trap;
 	document.onclick = clicker;
+	b3circles();
 }
 
 window.onload = startup;
 window.onresize = function(){setTimeout('windowChange()',5);}
 
 function b3circles() {
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
   if (document.getElementsByTagName("svg").length == 0) {
     svg = document.createElement("svg");
     svg.style.overflow = "visible";
@@ -794,10 +798,16 @@ function b3circles() {
       document.getElementById("yarc").remove()
       document.getElementById("ycut").remove();
     }
+
+    if (width) {
+      return;
+    }
+
+    width = 1580;
+    height = 865;
+    document.getElementById("controls").remove();
   }
 
-  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
   var colors = ['#ff4f94', '#f7df04', '#0ccccc', '#3600cc'];
 
   for (var i = 0; i < 3; i++) {
