@@ -757,7 +757,6 @@ function startup() {
 	fixLinks();
 	externalLinks();
 	fontScale();
-	if (!isOp) notOperaFix();
 	slideJump();
 	if (defaultView == 'outline') {
 		toggle();
@@ -800,6 +799,7 @@ function b3circles() {
     }
 
     if (width) {
+      if (!isOp) notOperaFix();
       return;
     }
 
