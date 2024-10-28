@@ -181,8 +181,6 @@ function go(step) {
 	loadNote();
 	permaLink();
 	number = undef;
-	// randomize B3 circles
-	b3circles();
 }
 
 function goTo(target) {
@@ -769,81 +767,3 @@ function startup() {
 
 window.onload = startup;
 window.onresize = function(){setTimeout('windowChange()',5);}
-
-function b3circles() {
-  if (document.getElementsByTagName("svg").length == 0) {
-    svg = document.createElement("svg");
-    svg.style.overflow = "visible";
-    svg.style.zIndex = 7;
-    svg.style.position = "fixed";
-    circle = document.createElement("circle");
-    circle.style.opacity = 0.5;
-    circle.setAttribute("fill", "none");
-    circle.setAttribute("id", "b3c0");
-    svg.appendChild(circle);
-    svg.appendChild(circle.cloneNode());
-    circle.setAttribute("id", "b3c1");
-    svg.appendChild(circle.cloneNode());
-    circle.setAttribute("id", "b3c2");
-    document.getElementsByClassName("layout")[0].appendChild(svg);
-    document.getElementsByClassName("layout")[0].innerHTML+= "";
-
-    if (document.getElementById("parc")) {
-      document.getElementById("parc").remove()
-      document.getElementById("pcut").remove();
-      document.getElementById("yarc").remove()
-      document.getElementById("ycut").remove();
-    }
-  }
-
-  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-  var colors = ['#ff4f94', '#f7df04', '#0ccccc', '#3600cc'];
-
-  for (var i = 0; i < 3; i++) {
-    var circle = document.getElementById("b3c" + i);
-    var r = Math.floor((Math.random() * 0.2 + 0.05) * height);
-    var x = Math.floor((Math.random() * 0.4 + 0.8) * width);
-    var y = Math.floor((Math.random() - 0.5) * height / 3) + i / 2 * height;
-    var w = Math.floor((Math.random() * 0.4 + 0.1) * r);
-    var color = colors.splice(Math.floor(Math.random() * colors.length), 1);
-    //var color = colors.splice(1, 1);
-    circle.setAttribute("r", r);
-    circle.setAttribute("cx", x);
-    circle.setAttribute("cy", y);
-    circle.setAttribute("stroke-width", w);
-    circle.setAttribute("stroke", color);
-  }
-}
-
-document.addEventListener('touchstart', handleTouchStart, false);
-document.addEventListener('touchmove', handleTouchMove, false);
-
-var xDown = null;
-var yDown = null;
-
-function handleTouchStart(evt) {
-  xDown = evt.touches[0].clientX;
-  yDown = evt.touches[0].clientY;
-};
-
-function handleTouchMove(evt) {
-  if ( ! xDown || ! yDown ) {
-    return;
-  }
-
-  var xUp = evt.touches[0].clientX;
-  var yUp = evt.touches[0].clientY;
-
-  var xDiff = xDown - xUp;
-  var yDiff = yDown - yUp;
-
-  if (Math.abs(xDiff) > Math.abs(yDiff)) {
-    go(xDiff/Math.abs(xDiff));
-  } else if (yDiff != 0) {
-    go(yDiff/Math.abs(yDiff));
-  }
-
-  xDown = null;
-  yDown = null;
-};

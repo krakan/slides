@@ -1,0 +1,302 @@
+body
+{
+  font-size: 2em !important;
+  font-family: Helvetica, sans-serif !important;
+  color: #212121 !important;
+  background-color: #eee8e4 !important;
+  background-image: url(img/zebratop.png) !important;
+  background-position: 0 0 !important;
+  background-size: 100% 50px!important;
+  background-repeat: no-repeat !important;
+}
+
+#slide0 h1
+{
+  color: #0ccccc !important;
+  background: transparent !important;
+}
+
+.slide
+{
+  bottom: 0px !important;
+  right: 0px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.slide h1
+{
+  white-space: nowrap !important;
+  top: 60px !important;
+  text-transform: none !important;
+  color: #0ccccc !important;
+  background: transparent !important;
+}
+
+.slide h1 .single
+{
+  position: inherit;
+  top: 300px !important;
+  font-size: 130% !important;
+}
+
+ol.loweralpha {
+    list-style-type: lower-alpha;
+}
+
+.slide p.speaker
+{
+  font-style: italic !important;
+  margin-left: 60px !important;
+  font-size: 55% !important;
+}
+
+.slide ol
+{
+  margin-left: 5% !important;
+  margin-right: 7% !important;
+}
+
+.slide ul ol
+{
+  margin: .5em !important;
+  line-height: 1 !important;
+}
+.slide ul ol li
+{
+  margin: .2em !important;
+  font-size: 85% !important;
+}
+
+.slide ul ul
+{
+  margin: .5em !important;
+  line-height: 1 !important;
+}
+
+.slide .narrow li
+{
+  height: .3em;
+}
+
+.slide tt, .slide pre {
+  color: #ff4f94 !important;
+}
+
+div#header, div#footer
+{
+  color: #eef !important;
+  font-family: Helvetica, sans-serif !important;
+  z-index: -2 !important;
+}
+
+div#header
+{
+  position: fixed;
+  bottom: 0px !important;
+  right: 0px !important;
+  margin: 50px !important;
+  width: auto !important;
+  height: 3.6em !important;
+  background: #eee8e4 !important;
+}
+
+div#footer
+{
+  background-color: #eee8e4 !important;
+  background-image: url(img/b3-grey.png) !important;
+  background-position: 10px 50% !important;
+  background-size: 59px 47px !important;
+  background-repeat: no-repeat !important;
+  padding-left: 65px !important;
+  color: #0ccccc !important;
+
+  position: fixed;
+  bottom: 0px !important;
+  right: 0px !important;
+  margin: 10px;
+  width: auto !important;
+  height: auto !important;
+}
+
+div#footer a:link
+{
+  color: #0ccccc !important;
+}
+
+a:link, a:visited
+{
+  text-decoration: none;
+  color: #0ccccc !important;
+}
+
+.incremental, .incremental *, .incremental *:after
+{
+  color: #aaa !important;
+}
+
+.slide .grey
+{
+  color: #aaa !important;
+}
+
+#controls #navList
+{
+  height: 1em !important;
+}
+
+#controls #navLinks a
+{
+  background: #fff !important;
+  color: #0ccccc !important;
+}
+
+img.align-bottom, obejct.align-bottom
+{
+  float: right !important
+}
+
+img.illustration, object.illustration
+{
+  position: fixed;
+  bottom: 125px;
+  left: 100px;
+  max-width: 300px;
+  max-height: 150px;
+  width: auto !important;
+  height: auto !important;
+  border-style: none;
+  background: transparent;
+  z-index: -1;
+}
+
+img.right, object.right, a.right img
+{
+  position: fixed;
+  top: 150px;
+  right: 100px;
+  max-height: 70%;
+  max-width: 50%;
+  z-index: 1;
+}
+
+img.single
+{
+  position: inherit;
+  top: 200px;
+  left: 200px;
+  min-width: 60%;
+  max-height: 80%;
+  width: auto !important;
+  height: auto !important;
+  border-style: none;
+  background: transparent;
+  z-index: -1;
+}
+
+img.full
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100% !important;
+  width: 100% !important;
+  border-style: none;
+  background: transparent;
+  z-index: 1;
+}
+
+img.fit
+{
+  height: 95% !important;
+  max-width: 85% !important;
+  border-style: none;
+  background: transparent;
+  margin-left: 10%;
+  z-index: 1;
+}
+
+img.fit2
+{
+  height: 48% !important;
+  max-width: 85% !important;
+  border-style: none;
+  background: transparent;
+  margin-left: 10%;
+  z-index: 1;
+}
+
+img.sidebyside
+{
+  height: 95% !important;
+  max-width: 63% !important;
+  border-style: none;
+  background: transparent;
+  z-index: 1;
+}
+
+.external:after
+{
+  content: none !important;
+
+}
+
+/* the TODO-list table */
+
+table, td
+{
+  border: 0;
+  cell-spacing: 0;
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+td p
+{
+  border: 10px;
+  border-style: solid;
+  line-height: 80px;
+  margin: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+  vertical-align: middle;
+  background: #eee8e4;
+}
+td p.a { border-color: red; border-bottom-color: transparent}
+td p.b { border-color: orange; border-bottom-color: transparent}
+td p.c, td p.h
+{
+  border-color: green;
+  border-left-style: none;
+  border-right-style: none;
+  padding-left: 1.5em;
+  background-image: url(img/angle.png) !important;
+  background-size: 39px 100% !important;
+  background-repeat: no-repeat !important;
+  }
+td p.h { color: grey; }
+td p.d { border-color: blue; border-top-color: transparent}
+td p.e { border-color: magenta; border-top-color: transparent}
+td p.f
+{
+  border-color: transparent;
+  border-style: none;
+  background-image: url(img/angle2.png) !important;
+  background-size: 39px 100% !important;
+  background-repeat: no-repeat !important;
+  color: transparent;
+  line-height: 100px;
+}
+td p.g
+{
+  border-color: yellow;
+  noborder-right-color: transparent;
+  display: inline-block;
+  height: 100%;
+}
+tr,td
+{
+  height: 100%;
+}
