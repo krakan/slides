@@ -118,12 +118,13 @@ Konfigurationshantering
     - Eliminera oönskade ändringar
     - Många olika verktyg
 
-      - CFEngine
-      - Chef
-      - Puppet
-      - Ansible
-      - Mgmt Config
-      - System Initiative
+      - CFEngine » 1993
+      - Puppet » 2005
+      - Chef » 2009
+      - Ansible » 2012
+      - Terraform » 2014
+      - Mgmt Config » 2016
+      - System Initiative » 2023
 
   .. class:: illustration
   .. image:: img/ansiblelogo.png
@@ -163,6 +164,7 @@ Moln
      - Lätt att skala ner
      - Komponenter
      - Cloud Native
+     - Multi Cloud
 
   .. class:: illustration
   .. image:: img/there-is-no-cloud.png
@@ -324,7 +326,7 @@ Varför är det så svårt?
 =======================
 
   .. class:: single
-  .. image:: img/complexity.png
+  .. image:: img/complexity2.png
      :alt: [Komplexitet]
 
 Tack!
