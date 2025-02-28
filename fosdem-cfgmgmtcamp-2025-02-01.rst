@@ -80,10 +80,15 @@ Breaking Barriers - *Joseph Katsioloudes*
 
     Make developers enjoy security training
 
-     https://gh.io/secure-code-game
-
-
 .. class:: illustration
 .. image:: img/ghsec.png
    :alt: Gihub Security Lab
 
+Demo - Live Coding
+==================
+
+* https://gh.io/secure-code-game
+
+.. class:: right
+.. image:: img/wrong-cat.jpg
+   :alt: WHat could possibly go wrong
