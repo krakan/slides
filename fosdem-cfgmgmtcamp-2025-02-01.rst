@@ -52,8 +52,8 @@ The future is a hypergraph - *Adam Jacob*
 * Open Source
 
   + Apache license
-  + github.com/systeminit/si
-  + systeminit.com
+  + https://github.com/systeminit/si
+  + https://systeminit.com
 
 .. class:: illustration
 .. image:: img/si-square-black.png

@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024.6863"
+   height="442.79886"
+   version="1.0"
+   id="svg513"
+   sodipodi:docname="Teaprocessing.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview515"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.8970807"
+     inkscape:cx="349.46689"
+     inkscape:cy="240.78101"
+     inkscape:window-width="1904"
+     inkscape:window-height="1041"
+     inkscape:window-x="21"
+     inkscape:window-y="16"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g271" />
+  <defs
+     id="defs5">
+    <marker
+       id="Arrow2Mend"
+       overflow="visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.6,0,0,-0.6,3,0)"
+         d="M 8.7186,4.0337 -2.2074,0.016 8.7186,-4.0017 c -1.7455,2.3721 -1.7354,5.6175 0,8.0354 z"
+         fill-rule="evenodd"
+         stroke-linejoin="round"
+         stroke-width="0.625"
+         id="path2" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="M 4.9165505,-27.340239 H 1027.4165 c 2.2628,0 4.0845,1.8217 4.0845,4.0845 V 513.13426 c 0,2.2628 -1.8217,4.0845 -4.0845,4.0845 H 4.9165505 c -2.2628,0 -4.08449995,-1.8217 -4.08449995,-4.0845 V -23.255739 c 0,-2.2628 1.82169995,-4.0845 4.08449995,-4.0845 z"
+     fill="#ffffff"
+     id="path9" />
+  <path
+     d="m 927.18555,-14.230239 h 89.78095 V 508.77976 h -89.78095 z"
+     fill="#ffce85"
+     opacity="0.58599"
+     stroke-width="0"
+     id="path11" />
+  <g
+     fill="#ddffa9"
+     stroke-width="0"
+     id="g21"
+     transform="translate(-13.124449,-132.40024)">
+    <path
+       d="m 729.01,118.23 h 85.236 V 641.24 H 729.01 Z"
+       opacity="0.58599"
+       id="path13" />
+    <path
+       d="m 367.95,118.24 h 81.628 V 641.25 H 367.95 Z"
+       opacity="0.58599"
+       id="path15" />
+    <path
+       d="m 530.31,118.54 h 82.299 V 641.55 H 530.31 Z"
+       opacity="0.58599"
+       id="path17" />
+    <path
+       d="M 128.52,118.94 H 286.43 V 641.95 H 128.52 Z"
+       opacity="0.58599"
+       id="path19" />
+  </g>
+  <path
+     d="m 526.27555,164.85976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fce94f"
+     id="path23" />
+  <path
+     d="m 813.57555,9.9897609 h 66.474 V 43.226761 h -66.474 z"
+     fill="#c17d11"
+     id="path25" />
+  <path
+     d="m 813.57555,46.969761 h 66.474 v 33.237 h -66.474 z"
+     fill="#c17d11"
+     id="path27" />
+  <path
+     d="m 165.94555,316.85976 h 66.474 v 33.237 h -66.474 z"
+     fill="#729fcf"
+     id="path29" />
+  <path
+     d="m 362.42555,332.27976 h 66.474 v 33.237 h -66.474 z"
+     fill="#ef2929"
+     id="path31" />
+  <path
+     d="m 362.42555,273.06976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path33" />
+  <path
+     d="m 280.12555,332.05976 h 66.474 v 33.237 h -66.474 z"
+     fill="#ef2929"
+     id="path35" />
+  <path
+     d="m 280.00555,369.46976 h 148.89 v 33.237 h -148.89 z"
+     fill="#ef2929"
+     id="path37" />
+  <path
+     d="m 280.87555,273.26976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path39" />
+  <path
+     d="m 606.96555,332.27976 h 66.474 v 33.237 h -66.474 z"
+     fill="#ef2929"
+     id="path41" />
+  <path
+     d="m 606.96555,164.85976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fce94f"
+     id="path43" />
+  <path
+     d="m 643.18555,124.01976 h 66.474 v 33.237 h -66.474 z"
+     fill="#cee14b"
+     id="path45" />
+  <path
+     d="m 606.96555,87.289761 h 66.474 v 33.236999 h -66.474 z"
+     fill="#cee14b"
+     id="path47" />
+  <path
+     d="m 643.18555,291.42976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path49" />
+  <path
+     d="m 606.96555,254.69976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path51" />
+  <path
+     d="m 724.42555,214.79976 h 66.474 v 33.237 h -66.474 z"
+     fill="#d3d7cf"
+     id="path53" />
+  <path
+     d="m 724.42555,352.56976 h 66.474 v 33.237 h -66.474 z"
+     fill="#ef2929"
+     id="path55" />
+  <path
+     d="m 724.42555,164.85976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fce94f"
+     id="path57" />
+  <path
+     d="m 724.42555,105.65976 h 66.474 v 33.237 h -66.474 z"
+     fill="#cee14b"
+     id="path59" />
+  <path
+     d="m 724.42555,273.06976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path61" />
+  <path
+     d="m 443.85555,87.169761 h 66.474 v 33.236999 h -66.474 z"
+     fill="#cee14b"
+     id="path63" />
+  <path
+     d="m 443.85555,124.14976 h 66.474 v 33.237 h -66.474 z"
+     fill="#cee14b"
+     id="path65" />
+  <path
+     d="m 443.85555,254.57976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path67" />
+  <path
+     d="m 443.85555,291.55976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path69" />
+  <path
+     d="m 139.34555,278.93976 h 66.474 v 33.237 h -66.474 z"
+     fill="#729fcf"
+     id="path71" />
+  <path
+     d="m 812.18555,291.65976 h 66.474 v 33.237 h -66.474 z"
+     fill="#fcaf3e"
+     id="path73" />
+  <g
+     stroke="#000000"
+     stroke-width="0.74818"
+     id="g87"
+     transform="translate(-13.124449,-132.40024)">
+    <path
+       d="m 945.86,347.59 h 78.347 v 33.237 H 945.86 Z"
+       fill="#d3d7cf"
+       id="path75" />
+    <path
+       d="m 945.86,485.35 h 78.347 v 33.237 H 945.86 Z"
+       fill="#ef2929"
+       id="path77" />
+    <path
+       d="m 945.86,296.96 h 78.347 v 33.237 H 945.86 Z"
+       fill="#fce94f"
+       id="path79" />
+    <path
+       d="m 945.86,237.76 h 78.347 v 33.237 H 945.86 Z"
+       fill="#cee14b"
+       id="path81" />
+    <path
+       d="m 945.86,405.86 h 78.347 v 33.237 H 945.86 Z"
+       fill="#fcaf3e"
+       id="path83" />
+    <path
+       d="m 945.86,160.84 h 78.347 v 33.237 H 945.86 Z"
+       fill="#c17d11"
+       id="path85" />
+  </g>
+  <g
+     fill="none"
+     stroke="#000000"
+     id="g189"
+     transform="translate(-13.124449,-132.40024)">
+    <g
+       id="g163">
+      <path
+         d="m 360.85,423.82 11.681,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.869"
+         id="path89" />
+      <path
+         d="m 448.25,403.46 6.4834,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.86975"
+         id="path91" />
+      <path
+         d="m 448.27,441.83 6.2857,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.86975"
+         id="path93" />
+      <path
+         d="m 448.27,403.43 v 38.637"
+         stroke-width="0.86975"
+         id="path95" />
+      <path
+         d="m 442.02,422.13 h 5.9854"
+         stroke-width="0.86975"
+         id="path97" />
+      <path
+         d="m 360.09,481.77 12.127,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.869"
+         id="path99" />
+      <path
+         d="m 442.71,481.33 173.6,-0.012"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.8057"
+         id="path101" />
+      <path
+         d="m 523.91,403.85 h 93.643"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.87256"
+         id="path103" />
+      <g
+         stroke-width="0.869"
+         id="g111">
+        <path
+           d="m 522.82,440.83 h 47.883 v -37.409"
+           id="path105" />
+        <path
+           d="m 523.88,236.6 h 93.643"
+           marker-end="url(#Arrow2Mend)"
+           id="path107" />
+        <path
+           d="m 522.8,273.58 h 47.883 v -37.409"
+           id="path109" />
+      </g>
+      <path
+         d="m 804.01,254.74 137.97,0.25886"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.83206"
+         id="path113" />
+      <path
+         d="m 804.01,313.94 137.97,0.25885"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.869"
+         id="path115" />
+      <g
+         stroke-width="0.83206"
+         id="g123">
+        <path
+           d="m 804.01,363.88 137.97,0.25885"
+           marker-end="url(#Arrow2Mend)"
+           id="path117" />
+        <path
+           d="m 804.01,418.01 137.97,0.25886"
+           marker-end="url(#Arrow2Mend)"
+           id="path119" />
+        <path
+           d="m 804.01,501.65 137.97,0.24977"
+           marker-end="url(#Arrow2Mend)"
+           id="path121" />
+      </g>
+      <path
+         d="M 107.92,390.43 107.81068,253.38"
+         stroke-width="0.869"
+         id="path125" />
+      <path
+         d="M 447.6,254.03 107.96,253.8852"
+         stroke-width="0.86975"
+         id="path127" />
+      <g
+         stroke-width="0.869"
+         id="g137">
+        <path
+           d="M 605.81,313.88 H 617.7"
+           marker-end="url(#Arrow2Mend)"
+           id="path129" />
+        <path
+           d="m 686.54,313.88 h 47.968"
+           marker-end="url(#Arrow2Mend)"
+           id="path131" />
+        <path
+           d="m 286.52,481.85 4.1889,-0.0143"
+           marker-end="url(#Arrow2Mend)"
+           id="path133" />
+        <path
+           d="m 286.53,520.22 4.0611,-0.0143"
+           marker-end="url(#Arrow2Mend)"
+           id="path135" />
+      </g>
+      <path
+         d="m 286.53,481.82 v 38.637"
+         stroke-width="0.869"
+         id="path139" />
+      <path
+         d="m 721.84,449.93 h 48.631 v -7.5312"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.87069"
+         id="path141" />
+      <path
+         d="m 633.49,420.38 v 21.01 h 18.654"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.89036"
+         id="path143" />
+      <path
+         d="m 634.62,252.75 v 20.546 h 18.602"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.869"
+         id="path145" />
+      <path
+         d="m 722.96,282.04 h 48.631 v -7.5568"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.82848"
+         id="path147" />
+      <g
+         stroke-width="0.869"
+         id="g161">
+        <path
+           d="m 686.96,245.45 h 47.592"
+           marker-end="url(#Arrow2Mend)"
+           id="path149" />
+        <path
+           d="m 685.91,412.83 h 48.553"
+           marker-end="url(#Arrow2Mend)"
+           id="path151" />
+        <path
+           d="M 441.27,519.01 H 711.72 V 481.233 H 686.978"
+           id="path153" />
+        <path
+           d="m 711.69,502.18 h 22.902"
+           marker-end="url(#Arrow2Mend)"
+           id="path155" />
+        <path
+           d="m 803.36,244.14 h 12.415 v -84.544 h 8.5729"
+           marker-end="url(#Arrow2Mend)"
+           id="path157" />
+        <path
+           d="m 815.87,196.71 h 8.9781"
+           marker-end="url(#Arrow2Mend)"
+           id="path159" />
+      </g>
+    </g>
+    <path
+       d="M 896.91,164.84 Z"
+       stroke-width="0.74818px"
+       id="path165" />
+    <g
+       id="g187">
+      <g
+         stroke-width="0.869"
+         id="g175">
+        <path
+           d="m 893.1,157.6 h 17.03 v 36.661 h -16.971"
+           id="path167" />
+        <path
+           d="m 910.17,177.93 h 32.391"
+           marker-end="url(#Arrow2Mend)"
+           id="path169" />
+        <path
+           d="m 891.67,441.32 h 16.46 v -23.34"
+           id="path171" />
+        <path
+           d="m 804.09,431.11 h 18.189"
+           marker-end="url(#Arrow2Mend)"
+           id="path173" />
+      </g>
+      <path
+         d="m 447.69,235.03 6.4834,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.86975"
+         id="path177" />
+      <path
+         d="m 447.71,273.4 6.2857,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.87"
+         id="path179" />
+      <path
+         d="m 447.71,235 v 38.637"
+         stroke-width="0.86975"
+         id="path181" />
+      <path
+         d="m 488.84,290.05 v 23.826 h 46.667"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.87069"
+         id="path183" />
+      <path
+         d="m 70.959,390.43 h 36.962"
+         stroke-width="0.869"
+         id="path185" />
+    </g>
+  </g>
+  <path
+     d="M 9.9185505,241.09976 H 76.392551 v 33.237 H 9.9185505 Z"
+     fill="#729fcf"
+     id="path191" />
+  <path
+     d="m 443.85555,213.66976 h 66.474 v 33.237 h -66.474 z"
+     fill="#d3d7cf"
+     id="path193" />
+  <path
+     d="m 606.96555,213.66976 h 66.474 v 33.237 h -66.474 z"
+     fill="#d3d7cf"
+     id="path195" />
+  <g
+     fill="none"
+     stroke="#000000"
+     id="g221"
+     transform="translate(-13.124449,-132.40024)">
+    <g
+       id="g215">
+      <path
+         d="m 522.92,362.97 h 93.643"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.87256"
+         id="path197" />
+      <path
+         d="m 685.29,362.96 h 48.553"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.869"
+         id="path199" />
+      <path
+         d="m 409,361.27 v -22.166 h 361.66 v 3.8973"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.869"
+         id="path201" />
+      <path
+         d="M 274.97,423.33 V 361.753 H 453.36"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.89036"
+         id="path203" />
+      <path
+         d="m 142.2,427.79 6.4834,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.86975"
+         id="path205" />
+      <path
+         d="m 142.22,466.16 33.155,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.87"
+         id="path207" />
+      <path
+         d="m 142.22,427.76 v 38.637"
+         stroke-width="0.86975"
+         id="path209" />
+      <path
+         d="m 218.85,423.68 71.782,-0.0143"
+         marker-end="url(#Arrow2Mend)"
+         stroke-width="0.87"
+         id="path211" />
+      <path
+         d="m 275.03,423.33 v 77.093 h 11.236"
+         stroke-width="0.89036"
+         id="path213" />
+    </g>
+    <path
+       d="m 245.36,465.52 h 8.9286 v -41.786"
+       stroke-width="1px"
+       id="path217" />
+    <path
+       d="m 218.57,434.09 h 8.9286 v 11.071"
+       marker-end="url(#Arrow2Mend)"
+       stroke-width="1px"
+       id="path219" />
+  </g>
+  <g
+     font-family="sans-serif"
+     font-size="10.667px"
+     id="g271"
+     transform="translate(-13.124449,-132.40024)">
+    <switch
+       style="line-height:1.25"
+       id="switch227"
+       transform="translate(0,-40)">
+      <text
+         x="186.13113"
+         y="601.39368"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg55-it"
+         systemLanguage="it"><tspan
+           x="186.13113"
+           y="601.39368"
+           font-size="10.667px"
+           id="trsvg1-it">APPASSIMENTO</tspan></text>
+      <text
+         x="186.13113"
+         y="601.39368"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg55"><tspan
+           x="186.13113"
+           y="601.39368"
+           font-size="10.667px"
+           id="trsvg1">WILTING</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch233"
+       transform="translate(0,-40)">
+      <text
+         x="303.16803"
+         y="601.38837"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg56-it"
+         systemLanguage="it"><tspan
+           x="303.16803"
+           y="601.38837"
+           font-size="10.667px"
+           id="trsvg2-it">PESTATURA</tspan></text>
+      <text
+         x="303.16803"
+         y="601.38837"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg56"><tspan
+           x="303.16803"
+           y="601.38837"
+           font-size="10.667px"
+           id="trsvg2">BRUISING</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch239"
+       transform="translate(0,-40)">
+      <text
+         x="380.68558"
+         y="601.40436"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg57-it"
+         systemLanguage="it"><tspan
+           x="380.68558"
+           y="601.40436"
+           font-size="10.667px"
+           id="trsvg3-it">OSSIDAZIONE</tspan></text>
+      <text
+         x="380.68558"
+         y="601.40436"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg57"><tspan
+           x="380.68558"
+           y="601.40436"
+           font-size="10.667px"
+           id="trsvg3">OXIDATION</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch245"
+       transform="translate(0,-40)">
+      <text
+         x="466.50259"
+         y="601.40436"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg58-it"
+         systemLanguage="it"><tspan
+           x="466.50259"
+           y="601.40436"
+           font-size="10.667px"
+           id="trsvg4-it">COTTURA</tspan></text>
+      <text
+         x="466.50259"
+         y="601.40436"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg58"><tspan
+           x="466.50259"
+           y="601.40436"
+           font-size="10.667px"
+           id="trsvg4">FIXATION</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch251"
+       transform="translate(0,-40)">
+      <text
+         x="541.62067"
+         y="601.39368"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg59-it"
+         systemLanguage="it"><tspan
+           x="541.62067"
+           y="601.39368"
+           font-size="10.667px"
+           id="trsvg5-it">INGIALLIMENTO</tspan></text>
+      <text
+         x="541.62067"
+         y="601.39368"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg59"><tspan
+           x="541.62067"
+           y="601.39368"
+           font-size="10.667px"
+           id="trsvg5">YELLOWING</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch257"
+       transform="translate(0,-40)">
+      <text
+         x="648.42841"
+         y="601.38837"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg60-it"
+         systemLanguage="it"><tspan
+           x="648.42841"
+           y="601.38837"
+           id="trsvg6-it">MODELLAMENTO</tspan></text>
+      <text
+         x="648.42841"
+         y="601.38837"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg60"><tspan
+           x="648.42841"
+           y="601.38837"
+           id="trsvg6">SHAPING</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch263"
+       transform="translate(0,-40)">
+      <text
+         x="752.0271"
+         y="601.39374"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg61-it"
+         systemLanguage="it"><tspan
+           x="752.0271"
+           y="601.39374"
+           id="trsvg7-it">ESSICCAZIONE</tspan></text>
+      <text
+         x="752.0271"
+         y="601.39374"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg61"><tspan
+           x="752.0271"
+           y="601.39374"
+           id="trsvg7">DRYING</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch269"
+       transform="translate(0,-40)">
+      <text
+         x="857.74475"
+         y="601.38837"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg62-it"
+         systemLanguage="it"><tspan
+           x="857.74475"
+           y="601.38837"
+           id="trsvg8-it">STAGIONATURA</tspan></text>
+      <text
+         x="857.74475"
+         y="601.38837"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg62"><tspan
+           x="857.74475"
+           y="601.38837"
+           id="trsvg8">CURING</tspan></text>
+    </switch>
+  </g>
+  <path
+     d="m 94.795551,258.02976 v 52.253 h 34.335999"
+     fill="none"
+     stroke="#000000"
+     stroke-width="1px"
+     id="path273" />
+  <g
+     font-family="sans-serif"
+     font-size="10.667px"
+     id="g511"
+     transform="translate(-13.124449,-132.40024)">
+    <switch
+       style="line-height:1.25"
+       id="switch281">
+      <text
+         x="327.5799"
+         y="419.34824"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg63-it"
+         systemLanguage="it"><tspan
+           x="327.5799"
+           y="419.34824"
+           text-align="center"
+           id="trsvg9-it">Mescolatura</tspan><tspan
+           x="327.5799"
+           y="432.68161"
+           text-align="center"
+           id="trsvg10-it">in cestello</tspan></text>
+      <text
+         x="327.5799"
+         y="419.34824"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg63"><tspan
+           x="327.5799"
+           y="419.34824"
+           text-align="center"
+           id="trsvg9">Tossing in</tspan><tspan
+           x="327.5799"
+           y="432.68161"
+           text-align="center"
+           id="trsvg10"> basket</tspan></text>
+    </switch>
+    <g
+       text-anchor="middle"
+       id="g307">
+      <switch
+         style="line-height:1.25"
+         id="switch289">
+        <text
+           x="408.90686"
+           y="419.30835"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg64-it"
+           systemLanguage="it"><tspan
+             x="408.90686"
+             y="419.30835"
+             id="trsvg11-it">Ossidazione</tspan><tspan
+             x="408.90686"
+             y="432.64172"
+             id="trsvg12-it">parziale</tspan></text>
+        <text
+           x="408.90686"
+           y="419.30835"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg64"><tspan
+             x="408.90686"
+             y="419.30835"
+             id="trsvg11">Partial</tspan><tspan
+             x="408.90686"
+             y="432.64172"
+             id="trsvg12">oxidation</tspan></text>
+      </switch>
+      <switch
+         style="line-height:1.25"
+         id="switch297">
+        <text
+           x="326.65039"
+           y="477.13962"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg65-it"
+           systemLanguage="it"><tspan
+             x="326.65039"
+             y="477.13962"
+             id="trsvg13-it">Leggera</tspan><tspan
+             x="326.65039"
+             y="490.47299"
+             id="trsvg14-it">frantumazione</tspan></text>
+        <text
+           x="326.65039"
+           y="477.13962"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg65"><tspan
+             x="326.65039"
+             y="477.13962"
+             id="trsvg13">Light</tspan><tspan
+             x="326.65039"
+             y="490.47299"
+             id="trsvg14">crushing</tspan></text>
+      </switch>
+      <switch
+         style="line-height:1.25"
+         id="switch305">
+        <text
+           x="408.90689"
+           y="478.51569"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg66-it"
+           systemLanguage="it"><tspan
+             x="408.90689"
+             y="478.51569"
+             id="trsvg15-it">Ossidazione</tspan><tspan
+             x="408.90689"
+             y="491.84906"
+             id="trsvg16-it">completa</tspan></text>
+        <text
+           x="408.90689"
+           y="478.51569"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg66"><tspan
+             x="408.90689"
+             y="478.51569"
+             id="trsvg15">Full</tspan><tspan
+             x="408.90689"
+             y="491.84906"
+             id="trsvg16">oxidation</tspan></text>
+      </switch>
+    </g>
+    <switch
+       style="line-height:1.25"
+       id="switch313">
+      <text
+         x="314.18546"
+         y="522.42566"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg67-it"
+         systemLanguage="it"><tspan
+           x="314.18546"
+           y="522.42566"
+           id="trsvg17-it">Taglia Strappa Arrotola Ossida</tspan></text>
+      <text
+         x="314.18546"
+         y="522.42566"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg67"><tspan
+           x="314.18546"
+           y="522.42566"
+           id="trsvg17">CTC with full oxidation</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch319">
+      <text
+         x="467.95999"
+         y="238.75694"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg68-it"
+         systemLanguage="it"><tspan
+           x="467.95999"
+           y="238.75694"
+           id="trsvg18-it">Vaporizzazione</tspan></text>
+      <text
+         x="467.95999"
+         y="238.75694"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg68"><tspan
+           x="467.95999"
+           y="238.75694"
+           id="trsvg18">Steaming</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch325">
+      <text
+         x="470.87201"
+         y="275.73465"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg69-it"
+         systemLanguage="it"><tspan
+           x="470.87201"
+           y="275.73465"
+           id="trsvg19-it">Cottura in padella</tspan></text>
+      <text
+         x="470.87201"
+         y="275.73465"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg69"><tspan
+           x="470.87201"
+           y="275.73465"
+           id="trsvg19">Panning</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch331">
+      <text
+         x="474.05075"
+         y="365.42288"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg70-it"
+         systemLanguage="it"><tspan
+           x="474.05075"
+           y="365.42288"
+           id="trsvg20-it">Cottura al forno</tspan></text>
+      <text
+         x="474.05075"
+         y="365.42288"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg70"><tspan
+           x="474.05075"
+           y="365.42288"
+           id="trsvg20">Baking</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch337">
+      <text
+         x="470.87207"
+         y="406.16885"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg71-it"
+         systemLanguage="it"><tspan
+           x="470.87207"
+           y="406.16885"
+           id="trsvg21-it">Cottura in padella</tspan></text>
+      <text
+         x="470.87207"
+         y="406.16885"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg71"><tspan
+           x="470.87207"
+           y="406.16885"
+           id="trsvg21">Panning</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch343">
+      <text
+         x="474.05075"
+         y="443.30649"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg72-it"
+         systemLanguage="it"><tspan
+           x="474.05075"
+           y="443.30649"
+           id="trsvg22-it">Cottura al forno</tspan></text>
+      <text
+         x="474.05075"
+         y="443.30649"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg72"><tspan
+           x="474.05075"
+           y="443.30649"
+           id="trsvg22">Baking</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch349">
+      <text
+         x="547.34381"
+         y="316.61331"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg73-it"
+         systemLanguage="it"><tspan
+           x="547.34381"
+           y="316.61331"
+           id="trsvg23-it">Soffocatura</tspan></text>
+      <text
+         x="547.34381"
+         y="316.61331"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg73"><tspan
+           x="547.34381"
+           y="316.61331"
+           id="trsvg23">Sweltering</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch355">
+      <text
+         x="636.60345"
+         y="239.04163"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg74-it"
+         systemLanguage="it"><tspan
+           x="636.60345"
+           y="239.04163"
+           id="trsvg24-it">Arrotolamento</tspan></text>
+      <text
+         x="636.60345"
+         y="239.04163"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg74"><tspan
+           x="636.60345"
+           y="239.04163"
+           id="trsvg24">Rolling</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch361">
+      <text
+         x="669.35956"
+         y="275.61014"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg75-it"
+         systemLanguage="it"><tspan
+           x="669.35956"
+           y="275.61014"
+           id="trsvg25-it">Formatura</tspan></text>
+      <text
+         x="669.35956"
+         y="275.61014"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg75"><tspan
+           x="669.35956"
+           y="275.61014"
+           id="trsvg25">Forming</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch367">
+      <text
+         x="636.60352"
+         y="316.61331"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg76-it"
+         systemLanguage="it"><tspan
+           x="636.60352"
+           y="316.61331"
+           id="trsvg26-it">Arrotolamento</tspan></text>
+      <text
+         x="636.60352"
+         y="316.61331"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg76"><tspan
+           x="636.60352"
+           y="316.61331"
+           id="trsvg26">Rolling</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch375">
+      <text
+         x="653.27557"
+         y="358.7562"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg77-it"
+         systemLanguage="it"><tspan
+           x="653.27557"
+           y="358.7562"
+           id="trsvg27-it">Leggero</tspan><tspan
+           x="653.27557"
+           y="372.08957"
+           id="trsvg28-it">arrotolamento</tspan></text>
+      <text
+         x="653.27557"
+         y="358.7562"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg77"><tspan
+           x="653.27557"
+           y="358.7562"
+           id="trsvg27">Light</tspan><tspan
+           x="653.27557"
+           y="372.08957"
+           id="trsvg28">Rolling</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch381">
+      <text
+         x="636.60345"
+         y="406.45343"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg78-it"
+         systemLanguage="it"><tspan
+           x="636.60345"
+           y="406.45343"
+           id="trsvg29-it">Arrotolamento</tspan></text>
+      <text
+         x="636.60345"
+         y="406.45343"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg78"><tspan
+           x="636.60345"
+           y="406.45343"
+           id="trsvg29">Rolling</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch387">
+      <text
+         x="662.59692"
+         y="443.18195"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg79-it"
+         systemLanguage="it"><tspan
+           x="662.59692"
+           y="443.18195"
+           id="trsvg30-it">Appallottolamento</tspan></text>
+      <text
+         x="662.59692"
+         y="443.18195"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg79"><tspan
+           x="662.59692"
+           y="443.18195"
+           id="trsvg30">Ball Rolling</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch393">
+      <text
+         x="636.60352"
+         y="484.02505"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg80-it"
+         systemLanguage="it"><tspan
+           x="636.60352"
+           y="484.02505"
+           id="trsvg31-it">Arrotolamento</tspan></text>
+      <text
+         x="636.60352"
+         y="484.02505"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg80"><tspan
+           x="636.60352"
+           y="484.02505"
+           id="trsvg31">Rolling</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch399">
+      <text
+         x="755.00031"
+         y="504.16406"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg81-it"
+         systemLanguage="it"><tspan
+           x="755.00031"
+           y="504.16406"
+           id="trsvg32-it">Essiccazione</tspan></text>
+      <text
+         x="755.00031"
+         y="504.16406"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg81"><tspan
+           x="755.00031"
+           y="504.16406"
+           id="trsvg32">Drying</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch405">
+      <text
+         x="755.00024"
+         y="424.65778"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg82-it"
+         systemLanguage="it"><tspan
+           x="755.00024"
+           y="424.65778"
+           id="trsvg33-it">Essiccazione</tspan></text>
+      <text
+         x="755.00024"
+         y="424.65778"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg82"><tspan
+           x="755.00024"
+           y="424.65778"
+           id="trsvg33">Drying</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch411">
+      <text
+         x="755.00024"
+         y="366.39322"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg83-it"
+         systemLanguage="it"><tspan
+           x="755.00024"
+           y="366.39322"
+           id="trsvg34-it">Essiccazione</tspan></text>
+      <text
+         x="755.00024"
+         y="366.39322"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg83"><tspan
+           x="755.00024"
+           y="366.39322"
+           id="trsvg34">Drying</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch417">
+      <text
+         x="755.00031"
+         y="316.45322"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg84-it"
+         systemLanguage="it"><tspan
+           x="755.00031"
+           y="316.45322"
+           id="trsvg35-it">Essiccazione</tspan></text>
+      <text
+         x="755.00031"
+         y="316.45322"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg84"><tspan
+           x="755.00031"
+           y="316.45322"
+           id="trsvg35">Drying</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch423">
+      <text
+         x="755.00024"
+         y="257.24588"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg85-it"
+         systemLanguage="it"><tspan
+           x="755.00024"
+           y="257.24588"
+           id="trsvg36-it">Essiccazione</tspan></text>
+      <text
+         x="755.00024"
+         y="257.24588"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg85"><tspan
+           x="755.00024"
+           y="257.24588"
+           id="trsvg36">Drying</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch431">
+      <text
+         x="859.49634"
+         y="155.07439"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg86-it"
+         systemLanguage="it"><tspan
+           x="859.49634"
+           y="155.07439"
+           id="trsvg37-it">Stagionatura</tspan><tspan
+           x="859.49634"
+           y="168.40776"
+           id="trsvg38-it">naturale</tspan></text>
+      <text
+         x="859.49634"
+         y="155.07439"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg86"><tspan
+           x="859.49634"
+           y="155.07439"
+           id="trsvg37">Natural</tspan><tspan
+           x="859.49634"
+           y="168.40776"
+           id="trsvg38">aging</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch439">
+      <text
+         x="859.93372"
+         y="191.81209"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg87-it"
+         systemLanguage="it"><tspan
+           x="859.93372"
+           y="191.81209"
+           id="trsvg39-it">Accatastamento</tspan><tspan
+           x="859.93372"
+           y="205.14546"
+           id="trsvg40-it">con umidità</tspan></text>
+      <text
+         x="859.93372"
+         y="191.81209"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg87"><tspan
+           x="859.93372"
+           y="191.81209"
+           id="trsvg39">Wet</tspan><tspan
+           x="859.93372"
+           y="205.14546"
+           id="trsvg40">piling</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch445">
+      <text
+         x="844.802"
+         y="443.24478"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg88-it"
+         systemLanguage="it"><tspan
+           x="844.802"
+           y="443.24478"
+           id="trsvg41-it">Tostatura</tspan></text>
+      <text
+         x="844.802"
+         y="443.24478"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg88"><tspan
+           x="844.802"
+           y="443.24478"
+           id="trsvg41">Firing</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch453">
+      <text
+         x="985.25397"
+         y="174.43813"
+         font-weight="bold"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg89-it"
+         systemLanguage="it"><tspan
+           x="985.25397"
+           y="174.43813"
+           text-align="center"
+           id="trsvg42-it">Tè post</tspan><tspan
+           x="985.25397"
+           y="187.7715"
+           text-align="center"
+           id="trsvg43-it">fermentato</tspan></text>
+      <text
+         x="985.25397"
+         y="174.43813"
+         font-weight="bold"
+         text-align="center"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg89"><tspan
+           x="985.25397"
+           y="174.43813"
+           text-align="center"
+           id="trsvg42">Post-</tspan><tspan
+           x="985.25397"
+           y="187.7715"
+           text-align="center"
+           id="trsvg43">fermented tea</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch459">
+      <text
+         x="961.38721"
+         y="258.06989"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg90-it"
+         systemLanguage="it"><tspan
+           x="961.38721"
+           y="258.06989"
+           font-family="sans-serif"
+           font-weight="bold"
+           id="trsvg44-it">Tè verde</tspan></text>
+      <text
+         x="961.38721"
+         y="258.06989"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg90"><tspan
+           x="961.38721"
+           y="258.06989"
+           font-family="sans-serif"
+           font-weight="bold"
+           id="trsvg44">Green tea</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch465">
+      <text
+         x="959.58984"
+         y="317.46936"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg91-it"
+         systemLanguage="it"><tspan
+           x="959.58984"
+           y="317.46936"
+           font-family="sans-serif"
+           font-weight="bold"
+           id="trsvg45-it">Tè giallo</tspan></text>
+      <text
+         x="959.58984"
+         y="317.46936"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg91"><tspan
+           x="959.58984"
+           y="317.46936"
+           font-family="sans-serif"
+           font-weight="bold"
+           id="trsvg45">Yellow tea</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch471">
+      <text
+         x="985.3446"
+         y="368.09821"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg92-it"
+         systemLanguage="it"><tspan
+           x="985.3446"
+           y="368.09821"
+           font-family="sans-serif"
+           font-weight="bold"
+           text-align="center"
+           text-anchor="middle"
+           id="trsvg46-it">Tè bianco</tspan></text>
+      <text
+         x="985.3446"
+         y="368.09821"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg92"><tspan
+           x="985.3446"
+           y="368.09821"
+           font-family="sans-serif"
+           font-weight="bold"
+           text-align="center"
+           text-anchor="middle"
+           id="trsvg46">White tea</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch477">
+      <text
+         x="958.09656"
+         y="425.18939"
+         font-weight="bold"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg93-it"
+         systemLanguage="it"><tspan
+           x="958.09656"
+           y="425.18939"
+           id="trsvg47-it">Tè oolong</tspan></text>
+      <text
+         x="958.09656"
+         y="425.18939"
+         font-weight="bold"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg93"><tspan
+           x="958.09656"
+           y="425.18939"
+           id="trsvg47">Oolong tea</tspan></text>
+    </switch>
+    <switch
+       style="line-height:1.25"
+       id="switch483">
+      <text
+         x="962.7312"
+         y="505.85553"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg94-it"
+         systemLanguage="it"><tspan
+           x="962.7312"
+           y="505.85553"
+           font-family="sans-serif"
+           font-weight="bold"
+           id="trsvg48-it">Tè nero</tspan></text>
+      <text
+         x="962.7312"
+         y="505.85553"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="trsvg94"><tspan
+           x="962.7312"
+           y="505.85553"
+           font-family="sans-serif"
+           font-weight="bold"
+           id="trsvg48">Black tea</tspan></text>
+    </switch>
+    <g
+       text-anchor="middle"
+       id="g509">
+      <switch
+         style="line-height:1.25"
+         id="switch491">
+        <text
+           x="185.97112"
+           y="424.02481"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg95-it"
+           systemLanguage="it"><tspan
+             x="185.97112"
+             y="424.02481"
+             id="trsvg49-it">Appassimento</tspan><tspan
+             x="185.97112"
+             y="437.35818"
+             id="trsvg50-it">al sole</tspan></text>
+        <text
+           x="185.97112"
+           y="424.02481"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg95"><tspan
+             x="185.97112"
+             y="424.02481"
+             id="trsvg49">Sunned</tspan><tspan
+             x="185.97112"
+             y="437.35818"
+             id="trsvg50">wilting</tspan></text>
+      </switch>
+      <switch
+         style="line-height:1.25"
+         id="switch499">
+        <text
+           x="212.63109"
+           y="461.9462"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg96-it"
+           systemLanguage="it"><tspan
+             x="212.63109"
+             y="461.9462"
+             id="trsvg51-it">Appassimento</tspan><tspan
+             x="212.63109"
+             y="475.27957"
+             id="trsvg52-it">al chiuso</tspan></text>
+        <text
+           x="212.63109"
+           y="461.9462"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg96"><tspan
+             x="212.63109"
+             y="461.9462"
+             id="trsvg51">Indoor</tspan><tspan
+             x="212.63109"
+             y="475.27957"
+             id="trsvg52">wilting</tspan></text>
+      </switch>
+      <switch
+         style="line-height:1.25"
+         id="switch507">
+        <text
+           x="56.189205"
+           y="387.3367"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg97-it"
+           systemLanguage="it"><tspan
+             x="56.189205"
+             y="387.3367"
+             id="trsvg53-it">Foglie di tè</tspan><tspan
+             x="56.189205"
+             y="400.67007"
+             id="trsvg54-it">fresche</tspan></text>
+        <text
+           x="56.189205"
+           y="387.3367"
+           text-align="center"
+           style="line-height:1.25"
+           xml:space="preserve"
+           id="trsvg97"><tspan
+             x="56.189205"
+             y="387.3367"
+             id="trsvg53">Fresh tea</tspan><tspan
+             x="56.189205"
+             y="400.67007"
+             id="trsvg54">leaves</tspan></text>
+      </switch>
+    </g>
+  </g>
+</svg>
