@@ -45,7 +45,7 @@ Struktur
 * 2 init-konsulter - *Calle och Jonas*
 * 8 föreläsningar
 * 10 ignite talks
-* 1 lunch break
+* 1 lunch break - *per dag*
 * 48 open spaces
 
 Dag 1
